@@ -43,6 +43,7 @@ OBJS =		src/Element.o src/ElementSet.o src/ElementSubset.o \
       src/algorithms/ExhaustiveSearch.o \
       src/algorithms/SFS.o \
       src/algorithms/SFFS.o \
+      src/algorithms/UCES.o \
 			src/Collection.o src/Solver.o src/CostFunction.o \
 
 TOBJS =		test/ElementTest.o test/ElementSetTest.o \
@@ -57,6 +58,7 @@ TOBJS =		test/ElementTest.o test/ElementSetTest.o \
       test/ElementSubsetTest.o test/CollectionTest.o \
 			test/functions/MeanConditionalEntropyMock.o \
       test/algorithms/SFFSMock.o \
+      test/algorithms/UCESTest.o \
 
 LIBS = -lm
 

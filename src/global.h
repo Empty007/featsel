@@ -32,6 +32,7 @@
 # include <map>
 # include <sstream>
 # include <string>
+# include <vector>
 
 # define INFINITY_COST FLT_MAX
 
