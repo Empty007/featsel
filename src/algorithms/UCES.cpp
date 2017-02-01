@@ -23,13 +23,15 @@
 
 UCES::UCES ()
 {
+    list_of_visited_subsets = new Collection ();
 	cost_function = NULL;
 }
 
 
 UCES::~UCES ()
 {
-
+  if (list_of_visited_subsets != NULL)
+    delete list_of_visited_subsets;
 }
 
 // get_minima_list return the local minima, and we run this algorithm n times
@@ -67,7 +69,7 @@ int UCES::dfs (ElementSubset * X) {
     }
 
 //    cout << cntneighbors << endl;
-    if (cntneighbors == 0) return 0;
+    if (cntneighbors == 0) return 1;
 
     int aleatory_choose = rand()%cntneighbors;
     int vis = 0;
@@ -89,6 +91,68 @@ int UCES::dfs (ElementSubset * X) {
     return 1 + dfs(X);
 }
 
+// get_minima_list return the local minima, and we run this algorithm n times
+// this returns the number of steps to get to a local minima
+// same as dfs but it only chooses minimum cost, doesnt 
+int UCES::dfs2 (ElementSubset * X) {
+//    cout << "start dfs" << endl;
+    X->cost = cost_function->cost (X);  
+//    cout << "X cost = " << X->cost << endl;
+    
+	int n = set->get_set_cardinality ();
+
+	ElementSubset * Y; 
+    Y = new ElementSubset("", set);
+
+    bool Neighbors[n];
+    int cntneighbors = 0;
+    double current = X->cost;
+    int curNeighbor = -1;
+    for (int j = 0; j < n; j++) {
+        Neighbors[j] = false;
+        Y = new ElementSubset ("", set);
+        Y->copy(X);
+        if (X->has_element(j)) 
+            Y->remove_element(j);
+        else 
+            Y->add_element(j);
+
+
+        Y->cost = cost_function->cost (Y);
+//        cout << Y->cost << " " << X->cost << endl;
+//        cout << "Y cost = " << Y->cost << endl;
+        if (Y->cost <= current) {
+            if (curNeighbor != -1) Neighbors[curNeighbor] = false;
+            current = Y->cost;
+            Neighbors[j] = true;
+            cntneighbors = 1;
+        }
+        delete Y;
+    }
+
+//    cout << cntneighbors << endl;
+    if (cntneighbors == 0) return 1;
+
+    int aleatory_choose = rand()%cntneighbors;
+    int vis = 0;
+//    cout << "watching neighbors" << endl;
+    for (int j = 0; j < n; j++) if (Neighbors[j]) {
+//        cout << j << endl;
+        if (aleatory_choose == vis) {
+//            cout << j << " " << aleatory_choose << " " << vis << endl;
+            if (X->has_element(j)) 
+                X->remove_element(j);
+            else 
+                X->add_element(j);
+            break;
+            //X = Y
+        }
+        vis++;
+    }
+////    cout << "end dfs" << endl;
+    return 1 + dfs2(X);
+}
+
 //returns the number of local minima specified
 //
 void UCES::get_minima_list (unsigned int max_size_of_minima_list)
@@ -101,6 +165,16 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 
     int cnt_size_of_minima_list = 0;
 
+    //this part is modified to use a calculated m
+    //
+
+    //epsilon = 1/2^n, delta = 99.9%
+    int values[21] = { 7, 8, 10, 13, 18, 24, 32, 43, 59, 81, 111, 153, 212, 294, 407, 637, 788, 1097, 1527, 2128, 2966};
+    max_size_of_minima_list = values[n-1];
+
+    //
+    // end of the part
+
     do {
 
         X = new ElementSubset("X", set);
@@ -112,7 +186,12 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
                 X->add_element(i);
         }
 
+        X->cost = cost_function->cost (X);  
+//        cout << "start = " << aleatory_subset << " " <<  X->cost << endl;
+
         dfs(X);
+
+        cout << "end = " << X->cost << endl;
 
         list_of_minima.push_back (X);
 
@@ -160,7 +239,7 @@ double UCES::get_steps (vector <int> &Costs, vector <int> &results, vector <int>
 
     int aleatory_subset, i, sum_steps_needed = 0;
 
-    for (cnt_size_of_minima_list = 0; cnt_size_of_minima_list < max_size_of_minima_list; cnt_size_of_minima_list++) {
+    for (cnt_size_of_minima_list = 1; cnt_size_of_minima_list <= max_size_of_minima_list; cnt_size_of_minima_list++) {
 
         X = new ElementSubset("X", set);
         X->set_empty_subset (); // X starts with empty set
@@ -192,8 +271,8 @@ double UCES::get_steps (vector <int> &Costs, vector <int> &results, vector <int>
 
     } 
 
-    if (cnt_size_of_minima_list != max_size_of_minima_list)
-        cnt_size_of_minima_list++;
+//    if (cnt_size_of_minima_list != max_size_of_minima_list)
+//        cnt_size_of_minima_list++;
 
 
 //    for (i = 0; i < results.size(); i++) {
@@ -227,9 +306,11 @@ int UCES::nLocalMinima (vector <int> &Costs) {
     ElementSubset * Y; 
 
     int cntMinima = 0;
+    int contador = 0;
 	do  // Amortized time per iteration is O(1) + O(f(n))
 	{
 		i = 0;
+        contador++;
 		while ((i < n) && (X.has_element (i)))
 		{
 			X.remove_element (i);
@@ -268,6 +349,8 @@ int UCES::nLocalMinima (vector <int> &Costs) {
             cntMinima++;
 
 //        cout << X.print_subset () <<  "cost: " << X.cost << endl;
+        if (__builtin_popcount(contador) == 1) cout << contador << endl;
+//        cout << i << endl;
         //add cost
 
 	}
@@ -276,6 +359,7 @@ int UCES::nLocalMinima (vector <int> &Costs) {
 //
 
     sort(Costs.begin(), Costs.end());
+    Costs.resize(20);
 //    cout << "X cost = " << X->cost << endl;
     return cntMinima;
 }

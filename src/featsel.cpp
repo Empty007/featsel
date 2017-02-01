@@ -134,6 +134,8 @@ int main(int argc, char * argv[])
     solver = new SFS ();
   else if (algorithm.compare ("sffs") == 0)
     solver = new SFFS ();
+  else if (algorithm.compare ("uces") == 0)
+    solver = new UCES ();
   else
     return EXIT_FAILURE;
 
@@ -352,6 +354,7 @@ https://github.com/msreis/featsel \n\n \
           || (strcmp (argv[i], "es") == 0)
           || (strcmp (argv[i], "sfs") == 0)
           || (strcmp (argv[i], "sffs") == 0)
+          || (strcmp (argv[i], "uces") == 0)
          )
       {
         a->clear ();

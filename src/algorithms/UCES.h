@@ -41,6 +41,8 @@ public:
     // Runs the dfs from a random node searching for the local minima
     int dfs (ElementSubset *);
 
+    int dfs2 (ElementSubset *);
+
 	// Runs the UCurve algorithm, getting up to 'max_size_of_minima_list' minimum subsets.
 	//
     //

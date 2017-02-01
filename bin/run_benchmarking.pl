@@ -647,7 +647,7 @@ if ($PRINT_OUTPUT_GRAPHS eq "ON")
 
 # Remove temporary files.
 #
-system ("rm $LOG_FILE");
+# system ("rm $LOG_FILE");
 
 
 # End of main program.

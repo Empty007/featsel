@@ -178,6 +178,9 @@ namespace UCESTest
             cout << "size of the set = " << nset << endl;
             vector <int> Costs;
             int nMinima = uces.nLocalMinima(Costs);
+//            for (int j = 0; j < Costs.size(); j++) {
+//                cout << " costs " << j << " = " << Costs[j] << endl;
+//            }
             cout << "number of Local Minima = " << nMinima << endl;
             double media = 0;
             int iterations = 20, nresults = positions.size();
@@ -186,6 +189,7 @@ namespace UCESTest
                 media += uces.get_steps(Costs, results, positions, 1000);
                 for (int k = 0; k < nresults; k++) {
                     mediaResults[k] += results[k];
+//                    cout << "Media of results position = " << positions[k]+1 << " result = " << results[k] << endl;
                 }
             }
 
@@ -214,6 +218,73 @@ namespace UCESTest
         return true;
     }
 
+    bool check_results2() {
+
+        int n = 1;
+
+        string arr[] = {
+        "input/tmp/Test_020_0010.xml"
+        };
+        vector <string> S(arr, arr+n);
+
+        vector <int> positions(5), results;
+        positions[0] = 0;
+        positions[1] = 1;
+        positions[2] = 2;
+        positions[3] = 5;
+        positions[4] = 10;
+
+
+        UCES uces;
+        for (int i = 0; i < n; i++) {
+            cout << S[i] << endl;
+            ElementSet pset("set", S[i]);
+            SubsetSum pc (&pset);
+            uces.set_parameters (&pc, &pset, false);
+            int nset = pset.get_set_cardinality ();
+            cout << "size of the set = " << nset << endl;
+            vector <int> Costs;
+            int nMinima = uces.nLocalMinima(Costs);
+            for (int j = 0; j < Costs.size(); j++) {
+                cout << " costs " << j << " = " << Costs[j] << endl;
+            }
+            cout << "number of Local Minima = " << nMinima << endl;
+            double media = 0;
+            int iterations = 20, nresults = positions.size();
+            vector <double> mediaResults(nresults, 0.0);
+            for (int j = 0; j < iterations; j++) {
+                cout << j << endl;
+                media += uces.get_steps(Costs, results, positions, 1000);
+                for (int k = 0; k < nresults; k++) {
+                    mediaResults[k] += results[k];
+                    cout << "Media of results position = " << positions[k]+1 << " result = " << results[k] << endl;
+                }
+            }
+
+            for (int k = 0; k < nresults; k++) {
+                mediaResults[k] /= iterations;
+                cout << "Media of results position = " << positions[k]+1 << " result = " << mediaResults[k] << endl;
+            }
+
+
+            double mediaSearchingMinima = media*1.0/iterations;
+            cout << "media of searching minima " << mediaSearchingMinima << endl;
+            for (int j = 0; j < nresults; j++) {
+                double muT = nMinima*1.0/(1<<nset);
+                double epsilon = (positions[j]+1)*1.0/(1<<nset);
+                double log1d = log(1.0/0.001); //delta 0.1%, 1-delta = 99.9%
+                double lowerbound = muT/epsilon*log1d;
+                double upperbound = 1.0/epsilon*log1d;
+                cout << "Expected values for position=" << positions[j]+1 << 
+                    ", lower bound= " << lowerbound << 
+                    ", upper bound= " << upperbound << 
+                    ", media real value = " << mediaResults[j] << 
+                    ", media of nodes visited = " << mediaResults[j]*mediaSearchingMinima << endl;
+            }
+        }
+        
+        return true;
+    }
 
 
 } // end of namespace
