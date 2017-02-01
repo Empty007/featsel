@@ -160,7 +160,7 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 	timeval begin_program, end_program;
 	gettimeofday (& begin_program, NULL);
 
-	ElementSubset * X;
+	ElementSubset * X, * Y;
 	int n = set->get_set_cardinality ();
 
     int cnt_size_of_minima_list = 0;
@@ -170,10 +170,13 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 
     //epsilon = 1/2^n, delta = 99.9%
     int values[21] = { 7, 8, 10, 13, 18, 24, 32, 43, 59, 81, 111, 153, 212, 294, 407, 637, 788, 1097, 1527, 2128, 2966};
-    max_size_of_minima_list = values[n-1];
+    int iterations = values[n-1];
 
+    double curCost = 1e120;
     //
     // end of the part
+
+    Y = new ElementSubset ("", set);
 
     do {
 
@@ -186,17 +189,33 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
                 X->add_element(i);
         }
 
-        X->cost = cost_function->cost (X);  
+//        X->cost = cost_function->cost (X);  
 //        cout << "start = " << aleatory_subset << " " <<  X->cost << endl;
 
         dfs(X);
 
-        cout << "end = " << X->cost << endl;
+//        cout << "end = " << X->cost << endl;
 
-        list_of_minima.push_back (X);
+        //temporal improve time (only works for best solution!!)
+        if (X->cost < curCost) {
+            Y->copy(X);
+            curCost = X->cost;
+        }
+        //temporal improve time
+
+        //list_of_minima.push_back (X);
 
         cnt_size_of_minima_list++;
-    } while (cnt_size_of_minima_list < max_size_of_minima_list);
+    } while (cnt_size_of_minima_list < iterations);
+
+    list_of_minima.push_back (Y);
+
+//    for (list<ElementSubset *>::iterator it = list_of_minima.begin(); it != list_of_minima.end(); it++) {
+//        cout << (*it)->cost << endl;
+//    }
+
+//    sort(list_of_minima.begin(), list_of_minima.end());
+//    list_of_minima.resize(1);
 
 	clean_list_of_minima (max_size_of_minima_list);
 

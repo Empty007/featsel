@@ -513,6 +513,8 @@ foreach my $i (1..$maximum_instance_size)
       my ($t0, $t1);
       my $current_algorithm = lc $algorithms[$j];
 
+      #print "$max_number_of_calls\n";
+
       $t0 = [gettimeofday];
       system ("$FEATSEL_BIN -n $i -a $current_algorithm " . 
               "-c $cost_function -f $INPUT_DIR/" . $experiment{$i}->[$k-1]  . 
@@ -537,7 +539,11 @@ foreach my $i (1..$maximum_instance_size)
           $average_time_of_cost_function[$j] += $1;
         }
       }
+
+      #print "$best_solution\n";
+      #print "$minimum_of_algorithms[$j]\n";
       close(LOG);
+
 
       if ($best_solution > $minimum_of_algorithms[$j])
       {
