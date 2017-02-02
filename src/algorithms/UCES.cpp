@@ -169,7 +169,7 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
     //
 
     //epsilon = 1/2^n, delta = 99.9%
-    int values[21] = { 7, 8, 10, 13, 18, 24, 32, 43, 59, 81, 111, 153, 212, 294, 407, 637, 788, 1097, 1527, 2128, 2966};
+    int values[24] = { 7, 8, 10, 13, 18, 24, 32, 43, 59, 81, 111, 153, 212, 294, 407, 637, 788, 1097, 1527, 2128, 2966, 4137, 5770, 8055};
     int iterations = values[n-1];
 
     double curCost = 1e120;
@@ -178,6 +178,7 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 
     Y = new ElementSubset ("", set);
 
+    int phat = 0;
     do {
 
         X = new ElementSubset("X", set);
@@ -192,7 +193,10 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 //        X->cost = cost_function->cost (X);  
 //        cout << "start = " << aleatory_subset << " " <<  X->cost << endl;
 
-        dfs(X);
+        int sz = dfs(X);
+        if (sz == 1) {
+            phat++;
+        }
 
 //        cout << "end = " << X->cost << endl;
 
