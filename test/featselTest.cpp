@@ -304,7 +304,7 @@ int main (void)
   //
   current_class = "UCESTest";
   result ("must return dont know",
-    UCESTest::check_results2 ());
+    UCESTest::check_results3 ());
   cout << endl;
 
   // Summary of the executed tests

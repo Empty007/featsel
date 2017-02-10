@@ -1,0 +1,269 @@
+
+Starting Unit Tests... 
+
+input/tmp/Test_020_0001.xml
+size of the set = 20
+phat = 0.0415561 and iterations = 28705
+phat = 0.039272 and iterations = 27128
+phat = 0.0399352 and iterations = 27586
+phat = 0.0389773 and iterations = 26924
+phat = 0.0394194 and iterations = 27229
+phat = 0.0423666 and iterations = 29265
+phat = 0.0426614 and iterations = 29469
+phat = 0.0439876 and iterations = 30385
+phat = 0.0400825 and iterations = 27688
+phat = 0.0402299 and iterations = 27789
+phat = 0.0400088 and iterations = 27637
+phat = 0.0407457 and iterations = 28146
+phat = 0.0409667 and iterations = 28298
+phat = 0.0413351 and iterations = 28553
+phat = 0.0391247 and iterations = 27026
+phat = 0.03743 and iterations = 25855
+phat = 0.0403772 and iterations = 27891
+phat = 0.0400088 and iterations = 27637
+phat = 0.0414088 and iterations = 28604
+phat = 0.0383879 and iterations = 26517
+phat = 0.0397878 and iterations = 27484
+phat = 0.0404509 and iterations = 27942
+phat = 0.0413351 and iterations = 28553
+phat = 0.0387563 and iterations = 26771
+phat = 0.0381668 and iterations = 26364
+phat = 0.0404509 and iterations = 27942
+phat = 0.0393457 and iterations = 27179
+phat = 0.0421456 and iterations = 29113
+phat = 0.0405983 and iterations = 28044
+phat = 0.0413351 and iterations = 28553
+phat = 0.0422193 and iterations = 29164
+phat = 0.0365458 and iterations = 25244
+phat = 0.0400825 and iterations = 27688
+phat = 0.0388299 and iterations = 26822
+phat = 0.0410404 and iterations = 28349
+phat = 0.0380931 and iterations = 26313
+phat = 0.0377984 and iterations = 26110
+phat = 0.0414825 and iterations = 28655
+phat = 0.0401562 and iterations = 27738
+phat = 0.0373563 and iterations = 25804
+phat = 0.0404509 and iterations = 27942
+phat = 0.0426614 and iterations = 29469
+phat = 0.0394194 and iterations = 27229
+phat = 0.0400825 and iterations = 27688
+phat = 0.0420719 and iterations = 29062
+phat = 0.0436192 and iterations = 30131
+phat = 0.0369879 and iterations = 25550
+phat = 0.0388299 and iterations = 26822
+phat = 0.0394194 and iterations = 27229
+phat = 0.0393457 and iterations = 27179
+phat = 0.0388299 and iterations = 26822
+phat = 0.0381668 and iterations = 26364
+phat = 0.0404509 and iterations = 27942
+phat = 0.0407457 and iterations = 28146
+phat = 0.0403036 and iterations = 27840
+phat = 0.0387563 and iterations = 26771
+phat = 0.0403036 and iterations = 27840
+phat = 0.0418509 and iterations = 28909
+phat = 0.0388299 and iterations = 26822
+phat = 0.0411877 and iterations = 28451
+phat = 0.0383142 and iterations = 26466
+phat = 0.0435455 and iterations = 30080
+phat = 0.0383142 and iterations = 26466
+phat = 0.0394931 and iterations = 27280
+phat = 0.0391983 and iterations = 27077
+phat = 0.0400825 and iterations = 27688
+phat = 0.0426614 and iterations = 29469
+phat = 0.0409667 and iterations = 28298
+phat = 0.0400088 and iterations = 27637
+phat = 0.0403772 and iterations = 27891
+phat = 0.0400088 and iterations = 27637
+phat = 0.0386826 and iterations = 26720
+phat = 0.0400088 and iterations = 27637
+phat = 0.039051 and iterations = 26975
+phat = 0.0377984 and iterations = 26110
+phat = 0.0405246 and iterations = 27993
+phat = 0.0375037 and iterations = 25906
+phat = 0.040672 and iterations = 28095
+phat = 0.0411877 and iterations = 28451
+phat = 0.0431771 and iterations = 29825
+phat = 0.0417772 and iterations = 28858
+phat = 0.0372826 and iterations = 25753
+phat = 0.0400825 and iterations = 27688
+phat = 0.0363985 and iterations = 25143
+84 84 84 81 79 
+84 84 84 84 81 
+84 84 84 83 80 
+84 84 84 84 79 
+84 84 84 80 75 
+input/tmp/Test_020_0002.xml
+size of the set = 20
+phat = 0.00670498 and iterations = 4631
+phat = 0.00692602 and iterations = 4784
+phat = 0.00618921 and iterations = 4275
+phat = 0.00803124 and iterations = 5547
+phat = 0.00655762 and iterations = 4529
+phat = 0.00751547 and iterations = 5191
+phat = 0.00633658 and iterations = 4377
+phat = 0.00648394 and iterations = 4478
+phat = 0.00641026 and iterations = 4428
+phat = 0.00707339 and iterations = 4886
+phat = 0.00648394 and iterations = 4478
+phat = 0.00729443 and iterations = 5038
+phat = 0.00559976 and iterations = 3868
+13 13 13 13 13 
+13 13 13 13 12 
+13 13 13 13 13 
+13 13 13 13 13 
+13 13 12 12 12 
+input/tmp/Test_020_0003.xml
+size of the set = 20
+phat = 0.000884173 and iterations = 610
+phat = 0.000736811 and iterations = 508
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+input/tmp/Test_020_0004.xml
+size of the set = 20
+phat = 0.00132626 and iterations = 916
+phat = 0.00103154 and iterations = 712
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+2 2 2 2 2 
+input/tmp/Test_020_0005.xml
+size of the set = 20
+phat = 0.0122311 and iterations = 8448
+phat = 0.0131889 and iterations = 9110
+phat = 0.0151783 and iterations = 10484
+phat = 0.0131152 and iterations = 9059
+phat = 0.0130416 and iterations = 9008
+phat = 0.01341 and iterations = 9263
+phat = 0.013631 and iterations = 9415
+phat = 0.013852 and iterations = 9568
+phat = 0.0145889 and iterations = 10077
+phat = 0.0134836 and iterations = 9314
+phat = 0.0139257 and iterations = 9619
+phat = 0.0133363 and iterations = 9212
+phat = 0.0129679 and iterations = 8957
+phat = 0.0124521 and iterations = 8601
+phat = 0.0126732 and iterations = 8754
+phat = 0.0139257 and iterations = 9619
+phat = 0.0127468 and iterations = 8805
+phat = 0.0128942 and iterations = 8906
+phat = 0.0148836 and iterations = 10281
+phat = 0.0144415 and iterations = 9975
+phat = 0.0111258 and iterations = 7685
+phat = 0.0128942 and iterations = 8906
+phat = 0.0131152 and iterations = 9059
+phat = 0.0126732 and iterations = 8754
+phat = 0.0134836 and iterations = 9314
+phat = 0.0147362 and iterations = 10179
+phat = 0.0140731 and iterations = 9721
+phat = 0.0133363 and iterations = 9212
+phat = 0.0145152 and iterations = 10026
+phat = 0.0139994 and iterations = 9670
+phat = 0.0151046 and iterations = 10433
+phat = 0.0147362 and iterations = 10179
+phat = 0.0113469 and iterations = 7838
+33 33 32 30 26 
+33 33 32 31 27 
+33 33 33 31 28 
+33 33 33 32 29 
+33 33 33 32 31 
+input/tmp/Test_020_0006.xml
+size of the set = 20
+error estimation of p hat, np < 10 or n(1 − p) < 10
+phat = 0.000368406 and iterations = 254
+error estimation of p hat, np < 10 or n(1 − p) < 10
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+input/tmp/Test_020_0007.xml
+size of the set = 20
+error estimation of p hat, np < 10 or n(1 − p) < 10
+phat = 0 and iterations = 0
+error estimation of p hat, np < 10 or n(1 − p) < 10
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+input/tmp/Test_020_0008.xml
+size of the set = 20
+error estimation of p hat, np < 10 or n(1 − p) < 10
+phat = 0.00066313 and iterations = 458
+error estimation of p hat, np < 10 or n(1 − p) < 10
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+input/tmp/Test_020_0009.xml
+size of the set = 20
+phat = 0.0201886 and iterations = 13945
+phat = 0.0185676 and iterations = 12826
+phat = 0.0201149 and iterations = 13894
+phat = 0.0199676 and iterations = 13793
+phat = 0.0200413 and iterations = 13844
+phat = 0.0210728 and iterations = 14556
+phat = 0.0208518 and iterations = 14403
+phat = 0.0201886 and iterations = 13945
+phat = 0.0196729 and iterations = 13589
+phat = 0.0228411 and iterations = 15778
+phat = 0.0193045 and iterations = 13335
+phat = 0.0223254 and iterations = 15421
+phat = 0.0204833 and iterations = 14149
+phat = 0.0204097 and iterations = 14098
+phat = 0.0191571 and iterations = 13233
+phat = 0.0195255 and iterations = 13487
+phat = 0.0199676 and iterations = 13793
+phat = 0.0194518 and iterations = 13436
+phat = 0.0201886 and iterations = 13945
+phat = 0.0184203 and iterations = 12724
+phat = 0.0176835 and iterations = 12215
+phat = 0.0208518 and iterations = 14403
+phat = 0.0190097 and iterations = 13131
+phat = 0.0201886 and iterations = 13945
+phat = 0.0196729 and iterations = 13589
+phat = 0.0240937 and iterations = 16643
+phat = 0.0201886 and iterations = 13945
+phat = 0.0201149 and iterations = 13894
+phat = 0.020557 and iterations = 14200
+phat = 0.0208518 and iterations = 14403
+phat = 0.0194518 and iterations = 13436
+phat = 0.0198939 and iterations = 13742
+phat = 0.0204097 and iterations = 14098
+phat = 0.0217359 and iterations = 15014
+phat = 0.018715 and iterations = 12927
+phat = 0.0208518 and iterations = 14403
+phat = 0.0196729 and iterations = 13589
+phat = 0.0181992 and iterations = 12571
+phat = 0.0190834 and iterations = 13182
+phat = 0.0202623 and iterations = 13996
+phat = 0.0212202 and iterations = 14658
+phat = 0.0218833 and iterations = 15116
+phat = 0.0211465 and iterations = 14607
+phat = 0.0207781 and iterations = 14352
+phat = 0.0207044 and iterations = 14302
+phat = 0.0201886 and iterations = 13945
+46 46 46 45 41 
+46 46 46 46 46 
+46 46 46 46 44 
+46 46 46 45 44 
+46 46 46 45 44 
+input/tmp/Test_020_0010.xml
+size of the set = 20
+error estimation of p hat, np < 10 or n(1 − p) < 10
+phat = 7.36811e-05 and iterations = 50
+error estimation of p hat, np < 10 or n(1 − p) < 10
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 0 0 
+0 0 0 0 0 
+1 1 1 1 1 
+UCESTest::must return dont know OK
+
+Total 1 test(s), 1 test(s) passed, 0 test(s) failed.
+

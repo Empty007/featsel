@@ -153,7 +153,197 @@ int UCES::dfs2 (ElementSubset * X) {
     return 1 + dfs2(X);
 }
 
-//returns the number of local minima specified
+//returns the minimum element for that epsilon and delta
+//
+double UCES::get_minima_eps_delta (unsigned int max_size_of_minima_list, double epsilon, double delta)
+{
+	timeval begin_program, end_program;
+	gettimeofday (& begin_program, NULL);
+
+	ElementSubset * X, * Y;
+	int n = set->get_set_cardinality ();
+
+    int cnt_iterations = 0;
+
+    //this part is modified to use a calculated m
+    //
+
+    int iterationsPhat = 13572; //phat error = 0.01 with 99% of confidence, p <= p
+    int iterations = iterationsPhat + 5;
+
+    double curCost = 1e120;
+    //
+    // end of the part
+
+    Y = new ElementSubset ("", set);
+
+    vector <double> Results;
+
+    int c_phat = 0;
+    do {
+
+        if (cnt_iterations == iterationsPhat) { //calculate real number of iterations to satisfy epsilon and delta
+            double pHat = c_phat*1.0/iterationsPhat + 0.01; //add the error
+            if (pHat*iterationsPhat < 10 ||  (1-pHat)*iterationsPhat < 10) {
+                cout << "error estimation of p hat, np < 10 or n(1 − p) < 10" << endl;
+            }
+            iterations = pHat/epsilon*log(1.0/delta);
+            cout << "phat = " << pHat << " and iterations = " << iterations << endl;
+        }
+
+        X = new ElementSubset("X", set);
+        X->set_empty_subset (); // X starts with empty set
+
+        int aleatory_subset = rand()%(1<<n);
+        for (int i = 0; i < n; i++) {
+            if (aleatory_subset & (1<<i))
+                X->add_element(i);
+        }
+
+//        X->cost = cost_function->cost (X);  
+//        cout << "start = " << aleatory_subset << " " <<  X->cost << endl;
+
+        int sz = dfs(X);
+        if (sz == 1) {
+            c_phat++;
+        }
+
+//        cout << "end = " << X->cost << endl;
+
+        //temporal improve time (only works for best solution!!)
+        if (X->cost < curCost) {
+            Y->copy(X);
+            curCost = X->cost;
+        }
+        Results.push_back(curCost);
+        //temporal improve time
+
+        //list_of_minima.push_back (X);
+
+        cnt_iterations++;
+    } while (cnt_iterations < iterations);
+
+    list_of_minima.push_back (Y);
+//    for (list<ElementSubset *>::iterator it = list_of_minima.begin(); it != list_of_minima.end(); it++) {
+//        cout << (*it)->cost << endl;
+//    }
+
+//    sort(list_of_minima.begin(), list_of_minima.end());
+//    list_of_minima.resize(1);
+
+	clean_list_of_minima (max_size_of_minima_list);
+
+	// Exhaustive search, if implemented keeping just an element of minimum cost,
+	// needs to compute the cost function 2^|S| times.
+	//
+	number_of_visited_subsets =  cost_function->get_number_of_calls_of_cost_function ();
+
+
+	gettimeofday (& end_program, NULL);
+	elapsed_time_of_the_algorithm = diff_us (end_program, begin_program);
+
+    return Results[iterations-1];
+
+}
+
+//returns the list of minimum element for that epsilon and delta//
+//
+vector <double> UCES::get_minima_list_eps_delta (unsigned int max_size_of_minima_list, double epsilon, double delta, double &pHat)
+{
+	timeval begin_program, end_program;
+	gettimeofday (& begin_program, NULL);
+
+	ElementSubset * X, * Y;
+	int n = set->get_set_cardinality ();
+
+    int cnt_iterations = 0;
+
+    //this part is modified to use a calculated m
+    //
+
+    int iterationsPhat = 13572; //phat error = 0.01 with 99% of confidence, p <= p
+    int iterations = iterationsPhat + 5;
+
+    double curCost = 1e120;
+    //
+    // end of the part
+
+    Y = new ElementSubset ("", set);
+
+    vector <double> Results;
+
+    int c_phat = 0;
+    do {
+
+        if (cnt_iterations == iterationsPhat) { //calculate real number of iterations to satisfy epsilon and delta
+//            cout << "counter = " << c_phat << " iterationsPhat = " << iterationsPhat << endl;
+            pHat = c_phat*1.0/iterationsPhat; //add the error
+            if (pHat*iterationsPhat < 10 ||  (1-pHat)*iterationsPhat < 10) {
+                cout << "error estimation of p hat, np < 10 or n(1 − p) < 10" << endl;
+                pHat = 10.0/iterationsPhat;
+            }
+            iterations = pHat/epsilon*log(1.0/delta);
+            cout << "phat = " << pHat << " and iterations = " << iterations << endl;
+        }
+
+        X = new ElementSubset("X", set);
+        X->set_empty_subset (); // X starts with empty set
+
+        int aleatory_subset = rand()%(1<<n);
+        for (int i = 0; i < n; i++) {
+            if (aleatory_subset & (1<<i))
+                X->add_element(i);
+        }
+
+//        X->cost = cost_function->cost (X);  
+//        cout << "start = " << aleatory_subset << " " <<  X->cost << endl;
+
+        int sz = dfs(X);
+        if (sz == 1) {
+            c_phat++;
+        }
+
+//        cout << "end = " << X->cost << endl;
+
+        //temporal improve time (only works for best solution!!)
+        if (X->cost < curCost) {
+            Y->copy(X);
+            curCost = X->cost;
+        }
+        Results.push_back(curCost);
+        //temporal improve time
+
+        //list_of_minima.push_back (X);
+
+        cnt_iterations++;
+    } while (cnt_iterations < iterations);
+
+    list_of_minima.push_back (Y);
+//    for (list<ElementSubset *>::iterator it = list_of_minima.begin(); it != list_of_minima.end(); it++) {
+//        cout << (*it)->cost << endl;
+//    }
+
+//    sort(list_of_minima.begin(), list_of_minima.end());
+//    list_of_minima.resize(1);
+
+	clean_list_of_minima (max_size_of_minima_list);
+
+	// Exhaustive search, if implemented keeping just an element of minimum cost,
+	// needs to compute the cost function 2^|S| times.
+	//
+	number_of_visited_subsets =  cost_function->get_number_of_calls_of_cost_function ();
+
+
+	gettimeofday (& end_program, NULL);
+	elapsed_time_of_the_algorithm = diff_us (end_program, begin_program);
+
+    return Results;
+
+}
+
+
+
+//returns the number of local minima specified using lower bound for local minima number of elements
 //
 void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 {
@@ -178,7 +368,6 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 
     Y = new ElementSubset ("", set);
 
-    int phat = 0;
     do {
 
         X = new ElementSubset("X", set);
@@ -193,10 +382,7 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 //        X->cost = cost_function->cost (X);  
 //        cout << "start = " << aleatory_subset << " " <<  X->cost << endl;
 
-        int sz = dfs(X);
-        if (sz == 1) {
-            phat++;
-        }
+        dfs(X);
 
 //        cout << "end = " << X->cost << endl;
 
@@ -211,6 +397,8 @@ void UCES::get_minima_list (unsigned int max_size_of_minima_list)
 
         cnt_size_of_minima_list++;
     } while (cnt_size_of_minima_list < iterations);
+
+
 
     list_of_minima.push_back (Y);
 
@@ -368,8 +556,10 @@ int UCES::nLocalMinima (vector <int> &Costs) {
             }
             delete Y;
         }
-        if (cntneighbors == n)
+        if (cntneighbors == n) {
+//            cout << "minima = " << X.cost << endl;
             cntMinima++;
+        }
 
 //        cout << X.print_subset () <<  "cost: " << X.cost << endl;
         if (__builtin_popcount(contador) == 1) cout << contador << endl;
@@ -382,8 +572,45 @@ int UCES::nLocalMinima (vector <int> &Costs) {
 //
 
     sort(Costs.begin(), Costs.end());
-    Costs.resize(20);
+//    Costs.resize(20); //modified only 20 best costs (take care)
 //    cout << "X cost = " << X->cost << endl;
     return cntMinima;
+}
+
+//returns the number of local minima in the lattice and all the costs sorted
+bool UCES::nCosts (vector <int> &Costs) {
+//    cout << "start dfs" << endl;
+    // find all the costs and then sort them
+	ElementSubset X ("X", set);
+	int i;
+	int n = (int) set->get_set_cardinality ();
+
+	X.set_empty_subset (); // X starts with empty set
+
+	do  // Amortized time per iteration is O(1) + O(f(n))
+	{
+		i = 0;
+		while ((i < n) && (X.has_element (i)))
+		{
+			X.remove_element (i);
+			i++;
+		}
+		if (i < n)
+			X.add_element (i);
+
+		if (store_visited_subsets)
+			list_of_visited_subsets->add_subset (&X);
+
+        X.cost = cost_function->cost (&X);  
+        Costs.push_back(cost_function->cost (&X));
+
+	}
+	while ( (i < n) );
+//    cout << cnt << endl;
+//
+
+    sort(Costs.begin(), Costs.end());
+//    cout << "X cost = " << X->cost << endl;
+    return true;
 }
 

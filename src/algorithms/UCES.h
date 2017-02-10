@@ -48,9 +48,15 @@ public:
     //
 	void get_minima_list(unsigned int);
 
+    double get_minima_eps_delta (unsigned int , double , double );
+
+    vector <double> get_minima_list_eps_delta (unsigned int , double , double , double&);
+
 	double get_steps (vector <int>&, vector <int>&, vector <int>&, unsigned int);
 
     int nLocalMinima (vector <int>&);
+
+    bool nCosts (vector <int>&); 
 
 };
 
