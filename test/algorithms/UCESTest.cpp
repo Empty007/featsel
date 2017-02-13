@@ -380,5 +380,71 @@ namespace UCESTest
         return true;
     }
 
+    bool check_results4() { //its made to check the values of percentage the minimum is indeed the minimum
+
+        int n = 10;
+
+        string arr[] = {
+        "input/tmp/Test_020_0001.xml",
+        "input/tmp/Test_020_0002.xml",
+        "input/tmp/Test_020_0003.xml",
+        "input/tmp/Test_020_0004.xml",
+        "input/tmp/Test_020_0005.xml",
+        "input/tmp/Test_020_0006.xml",
+        "input/tmp/Test_020_0007.xml",
+        "input/tmp/Test_020_0008.xml",
+        "input/tmp/Test_020_0009.xml",
+        "input/tmp/Test_020_0010.xml"
+        };
+        vector <string> S(arr, arr+n);
+
+        vector <double> epsilon(5), delta(5); // epsilon[0] and delta[0] minimum values!!
+        epsilon[0] = 0.00001;
+        epsilon[1] = 0.00002;
+        epsilon[2] = 0.00005;
+        epsilon[3] = 0.0001;
+        epsilon[4] = 0.001;
+        delta[0] = 0.001;
+        delta[1] = 0.005;
+        delta[2] = 0.01;
+        delta[3] = 0.05;
+        delta[4] = 0.1;
+
+        int nepsilon = epsilon.size(), ndelta = delta.size();
+
+
+        UCES uces;
+        for (int i = 0; i < n; i++) {
+            cout << S[i] << endl;
+            ElementSet pset("set", S[i]);
+            SubsetSum pc (&pset);
+            uces.set_parameters (&pc, &pset, false);
+            int nset = pset.get_set_cardinality ();
+            cout << "size of the set = " << nset << endl;
+            vector < pair <int, int> > Costs;
+            int nMinima = uces.nLocalMinimaMore(Costs); //returns number of Minima
+
+            int mincount = 0;
+            for (int e = 0; e < nepsilon; e++) {
+                int position = max(pow(2.0, nset)*epsilon[e]-1, 0.0);
+                for (int p = 0; p <= position; p++) {
+                    if (Costs[p].second == 0) mincount++;
+                }
+                cout << "for i = " << i << " e = " << epsilon[e] << "Percentage of local minima that belongs to epsilon = " << mincount*1.0/(position+1) << endl;
+            }
+//            cout << "number of Local Minima = " << nMinima << " p real " << nMinima*1.0/pow(2.0, nset) << endl;
+//            uces.nCosts(Costs); //returns only costs
+//            for (int j = 0; j < 300; j++) {
+//                cout << " costs " << j << " = " << Costs[j] << endl;
+//            }
+            //cout << "number of Local Minima = " << nMinima << endl;
+//            vector < vector <int> > Results( nepsilon, vector <int>(ndelta, 0));
+//
+        }
+
+        
+        return true;
+    }
+
 
 } // end of namespace

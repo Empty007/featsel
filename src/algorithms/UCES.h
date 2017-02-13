@@ -56,6 +56,8 @@ public:
 
     int nLocalMinima (vector <int>&);
 
+    int nLocalMinimaMore (vector < pair<int, int> > &); 
+
     bool nCosts (vector <int>&); 
 
 };

@@ -36,6 +36,8 @@ namespace UCESTest
     bool check_results2();
 
     bool check_results3();
+
+    bool check_results4();
 }
 
 #endif /* UCESTEST_H_ */

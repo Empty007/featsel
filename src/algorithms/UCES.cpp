@@ -578,6 +578,80 @@ int UCES::nLocalMinima (vector <int> &Costs) {
 }
 
 //returns the number of local minima in the lattice and all the costs sorted
+int UCES::nLocalMinimaMore (vector < pair<int, int> > &Costs) { //second = 1, false, =0, true
+//    cout << "start dfs" << endl;
+    // find all the costs and then sort them
+	ElementSubset X ("X", set);
+	int i;
+	int n = (int) set->get_set_cardinality ();
+
+	X.set_empty_subset (); // X starts with empty set
+        
+    ElementSubset * Y; 
+
+    int cntMinima = 0;
+    int contador = 0;
+	do  // Amortized time per iteration is O(1) + O(f(n))
+	{
+		i = 0;
+        contador++;
+		while ((i < n) && (X.has_element (i)))
+		{
+			X.remove_element (i);
+			i++;
+		}
+		if (i < n)
+			X.add_element (i);
+
+		if (store_visited_subsets)
+			list_of_visited_subsets->add_subset (&X);
+
+        X.cost = cost_function->cost (&X);  
+        Costs.push_back(make_pair(cost_function->cost (&X), 1));
+
+        Y = new ElementSubset("", set);
+
+        int cntneighbors = 0;
+        for (int j = 0; j < n; j++) {
+            Y = new ElementSubset ("", set);
+            Y->copy(&X);
+            if (X.has_element(j)) 
+                Y->remove_element(j);
+            else 
+                Y->add_element(j);
+
+
+            Y->cost = cost_function->cost (Y);
+    //        cout << Y->cost << " " << X->cost << endl;
+    //        cout << "Y cost = " << Y->cost << endl;
+            if (Y->cost >= X.cost) {
+                cntneighbors++;
+            }
+            delete Y;
+        }
+        if (cntneighbors == n) {
+//            cout << "minima = " << X.cost << endl;
+            cntMinima++;
+            Costs[Costs.size()-1].second = 0;
+        }
+
+//        cout << X.print_subset () <<  "cost: " << X.cost << endl;
+        if (__builtin_popcount(contador) == 1) cout << contador << endl;
+//        cout << i << endl;
+        //add cost
+
+	}
+	while ( (i < n) );
+//    cout << cnt << endl;
+//
+
+    sort(Costs.begin(), Costs.end());
+//    Costs.resize(20); //modified only 20 best costs (take care)
+//    cout << "X cost = " << X->cost << endl;
+    return cntMinima;
+}
+
+//returns the number of local minima in the lattice and all the costs sorted
 bool UCES::nCosts (vector <int> &Costs) {
 //    cout << "start dfs" << endl;
     // find all the costs and then sort them
