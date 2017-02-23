@@ -1,13 +1,13 @@
 
 == List of best subsets found ==
  X : c(X)
- <101011111111011110110111> : 0
+ <0001000100000010000001000> : 1
 
-Number of visited subsets: 2047225
-Required time to compute the visited subsets: 24372459 microseconds 
-(average 11 microseconds per node)
+Number of visited subsets: 706628
+Required time to compute the visited subsets: 8510660 microseconds 
+(average 12 microseconds per node)
 
-Elapsed time of execution of the algorithm (in microseconds): 41441466
+Elapsed time of execution of the algorithm (in microseconds): 15115136
 
 == End of processing ==
 

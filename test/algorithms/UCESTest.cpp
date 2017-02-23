@@ -287,7 +287,7 @@ namespace UCESTest
 
     bool check_results3() { //works faster than check_results2, epsilon[0] and delta[0] minimum values!!
 
-        int n = 10;
+        int n = 60;
 
         string arr[] = {
         "input/tmp/Test_020_0001.xml",
@@ -300,6 +300,56 @@ namespace UCESTest
         "input/tmp/Test_020_0008.xml",
         "input/tmp/Test_020_0009.xml",
         "input/tmp/Test_020_0010.xml"
+        "input/tmp/Test_021_0001.xml",
+        "input/tmp/Test_021_0002.xml",
+        "input/tmp/Test_021_0003.xml",
+        "input/tmp/Test_021_0004.xml",
+        "input/tmp/Test_021_0005.xml",
+        "input/tmp/Test_021_0006.xml",
+        "input/tmp/Test_021_0007.xml",
+        "input/tmp/Test_021_0008.xml",
+        "input/tmp/Test_021_0009.xml",
+        "input/tmp/Test_021_0010.xml"
+        "input/tmp/Test_022_0001.xml",
+        "input/tmp/Test_022_0002.xml",
+        "input/tmp/Test_022_0003.xml",
+        "input/tmp/Test_022_0004.xml",
+        "input/tmp/Test_022_0005.xml",
+        "input/tmp/Test_022_0006.xml",
+        "input/tmp/Test_022_0007.xml",
+        "input/tmp/Test_022_0008.xml",
+        "input/tmp/Test_022_0009.xml",
+        "input/tmp/Test_022_0010.xml"
+        "input/tmp/Test_023_0001.xml",
+        "input/tmp/Test_023_0002.xml",
+        "input/tmp/Test_023_0003.xml",
+        "input/tmp/Test_023_0004.xml",
+        "input/tmp/Test_023_0005.xml",
+        "input/tmp/Test_023_0006.xml",
+        "input/tmp/Test_023_0007.xml",
+        "input/tmp/Test_023_0008.xml",
+        "input/tmp/Test_023_0009.xml",
+        "input/tmp/Test_023_0010.xml"
+        "input/tmp/Test_024_0001.xml",
+        "input/tmp/Test_024_0002.xml",
+        "input/tmp/Test_024_0003.xml",
+        "input/tmp/Test_024_0004.xml",
+        "input/tmp/Test_024_0005.xml",
+        "input/tmp/Test_024_0006.xml",
+        "input/tmp/Test_024_0007.xml",
+        "input/tmp/Test_024_0008.xml",
+        "input/tmp/Test_024_0009.xml",
+        "input/tmp/Test_024_0010.xml"
+        "input/tmp/Test_025_0001.xml",
+        "input/tmp/Test_025_0002.xml",
+        "input/tmp/Test_025_0003.xml",
+        "input/tmp/Test_025_0004.xml",
+        "input/tmp/Test_025_0005.xml",
+        "input/tmp/Test_025_0006.xml",
+        "input/tmp/Test_025_0007.xml",
+        "input/tmp/Test_025_0008.xml",
+        "input/tmp/Test_025_0009.xml",
+        "input/tmp/Test_025_0010.xml"
         };
         vector <string> S(arr, arr+n);
 
@@ -320,7 +370,7 @@ namespace UCESTest
 
         UCES uces;
         for (int i = 0; i < n; i++) {
-            cout << S[i] << endl;
+//            cout << S[i] << endl;
             ElementSet pset("set", S[i]);
             SubsetSum pc (&pset);
             uces.set_parameters (&pc, &pset, false);
@@ -329,12 +379,15 @@ namespace UCESTest
             vector <int> Costs;
 //            int nMinima = uces.nLocalMinima(Costs); //returns number of Minima
 //            cout << "number of Local Minima = " << nMinima << " p real " << nMinima*1.0/pow(2.0, nset) << endl;
-            uces.nCosts(Costs); //returns only costs
-//            for (int j = 0; j < 300; j++) {
+//            uces.nCosts(Costs); //returns only costs
+//            cout << "\n";
+//            for (int j = 0; j < 1100; j++) {
 //                cout << " costs " << j << " = " << Costs[j] << endl;
+//                cout << Costs[j] << endl;
 //            }
+//            cout << "\n";
             //cout << "number of Local Minima = " << nMinima << endl;
-            vector < vector <int> > Results( nepsilon, vector <int>(ndelta, 0));
+//            vector < vector <int> > Results( nepsilon, vector <int>(ndelta, 0));
             int TotalIterations = 100;
             for (int j = 0; j < TotalIterations; j++) {
                 cout << j << endl;
@@ -342,36 +395,38 @@ namespace UCESTest
                 double pHat;
                 values = uces.get_minima_list_eps_delta(1, epsilon[0], delta[0], pHat);
                 
-                //iterationsPhat must be the same that UCES.cpp
+//                //iterationsPhat must be the same that UCES.cpp
 //                int iterationsPhat = 13572; //phat error = 0.01 with 99% of confidence, p <= p
 //                if (pHat*iterationsPhat < 10 ||  (1-pHat)*iterationsPhat < 10) {
 //                    cout << "error estimation of p hat, np < 10 or n(1 − p) < 10" << endl;
 //                }
-
-                for (int e = 0; e < nepsilon; e++) {
-                    for (int d = 0; d < ndelta; d++) {
-
-                        int iterations = pHat/epsilon[e]*log(1.0/delta[d]);
-
-                        int position = max(pow(2.0, nset)*epsilon[e]-1, 0.0);
-                        double valueFound = values[iterations-1];
-//                        cout << "epsilon = " << epsilon[e] << " delta = " << delta[d] << " value found = " <<  valueFound << " position = " << position << " Cost[position] " << Costs[position] << endl;
-                        if (valueFound <= Costs[position]) {
-                            Results[e][d]++;
-//                            cout << "true" << endl;
-                        }
-                        else {
-//                            cout << "false" << endl;
-                        }
-                    }
-                }
-            }
-
-            for (int e = 0; e < nepsilon; e++) {
-                for (int d = 0; d < ndelta; d++) {
-                    cout << Results[e][d] << " ";
-                }
-                cout << endl;
+//
+//                //evaluate values
+//                for (int e = 0; e < nepsilon; e++) {
+//                    for (int d = 0; d < ndelta; d++) {
+//
+//                        int iterations = pHat/epsilon[e]*log(1.0/delta[d]);
+//
+//                        int position = max(pow(2.0, nset)*epsilon[e]-1, 0.0);
+//                        double valueFound = values[iterations-1];
+////                        cout << "epsilon = " << epsilon[e] << " delta = " << delta[d] << " value found = " <<  valueFound << " position = " << position << " Cost[position] " << Costs[position] << endl;
+//                        if (valueFound <= Costs[position]) {
+//                            Results[e][d]++;
+////                            cout << "true" << endl;
+//                        }
+//                        else {
+////                            cout << "false" << endl;
+//                        }
+//                    }
+//                }
+//                //end evaluate values
+//            }
+//
+//            for (int e = 0; e < nepsilon; e++) {
+//                for (int d = 0; d < ndelta; d++) {
+//                    cout << Results[e][d] << " ";
+//                }
+//                cout << endl;
             }
         }
 
@@ -424,15 +479,17 @@ namespace UCESTest
             vector < pair <int, int> > Costs;
             int nMinima = uces.nLocalMinimaMore(Costs); //returns number of Minima
 
-            int mincount = 0;
             for (int e = 0; e < nepsilon; e++) {
+                int mincount = 0;
                 int position = max(pow(2.0, nset)*epsilon[e]-1, 0.0);
                 for (int p = 0; p <= position; p++) {
                     if (Costs[p].second == 0) mincount++;
                 }
-                cout << "for i = " << i << " e = " << epsilon[e] << "Percentage of local minima that belongs to epsilon = " << mincount*1.0/(position+1) << endl;
+                cout << "for i = " << i << " e = " << epsilon[e] << 
+                    ", Percentage of local minima that belongs to epsilon = " << mincount*1.0/(position+1) << 
+                    " m = " << mincount << " total = " << position+1 << endl;
             }
-//            cout << "number of Local Minima = " << nMinima << " p real " << nMinima*1.0/pow(2.0, nset) << endl;
+            cout << "number of Local Minima = " << nMinima << " p real " << nMinima*1.0/pow(2.0, nset) << endl;
 //            uces.nCosts(Costs); //returns only costs
 //            for (int j = 0; j < 300; j++) {
 //                cout << " costs " << j << " = " << Costs[j] << endl;

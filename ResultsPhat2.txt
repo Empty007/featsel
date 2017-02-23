@@ -1,0 +1,5784 @@
+
+Starting Unit Tests... 
+
+size of the set = 20
+0
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+1
+start here
+1 16942
+2 1856
+3 1404
+7 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+2
+start here
+1 14193
+2 3767
+4 2200
+5 1075
+8 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+3
+start here
+1 1856
+3 1404
+6 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+4
+start here
+1 1220
+4 1075
+8 845
+89 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+5
+start here
+1 1277
+16 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+6
+start here
+1 16942
+4 4570
+7 1856
+17 1404
+30 1075
+38 845
+67 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+7
+start here
+1 7417
+4 5413
+5 1856
+9 1404
+10 1277
+11 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+8
+start here
+1 3392
+10 2200
+14 1404
+17 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+9
+start here
+1 2200
+4 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+10
+start here
+1 3767
+2 3392
+5 2200
+8 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+11
+start here
+1 4522
+2 2200
+3 1075
+11 845
+15 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+12
+start here
+1 16942
+2 14193
+5 5413
+6 1404
+7 1277
+10 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+13
+start here
+1 1404
+5 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+14
+start here
+1 32764
+2 5714
+6 1404
+22 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+15
+start here
+1 38251
+2 35732
+3 1856
+10 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+16
+start here
+1 4570
+2 1404
+3 845
+10 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+17
+start here
+1 1404
+5 845
+28 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+18
+start here
+1 38251
+2 3767
+4 1277
+9 1220
+40 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+19
+start here
+1 8561
+2 3767
+6 1404
+11 1075
+20 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+20
+start here
+1 38251
+2 7417
+3 4570
+5 845
+6 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+21
+start here
+1 1856
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+22
+start here
+1 1277
+9 1220
+35 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+23
+start here
+1 16942
+2 4570
+3 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+24
+start here
+1 32764
+2 1277
+12 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+25
+start here
+1 1220
+2 845
+21 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+26
+start here
+1 16942
+2 7417
+3 3392
+5 1277
+14 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+27
+start here
+1 35732
+2 8561
+3 3392
+4 1856
+9 1220
+41 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+28
+start here
+1 16942
+3 2200
+4 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+29
+start here
+1 16942
+3 3767
+4 1220
+9 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+30
+start here
+1 1220
+12 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+31
+start here
+1 43702
+2 3392
+4 1404
+9 845
+25 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+32
+start here
+1 2200
+5 1404
+6 1277
+29 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+33
+start here
+1 3767
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+34
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+35
+start here
+1 35732
+2 4522
+4 3767
+6 3542
+9 1856
+11 845
+47 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+36
+start here
+1 38251
+2 7417
+4 4570
+6 2200
+7 1404
+8 1220
+26 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+37
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+38
+start here
+1 1075
+76 845
+97 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+39
+start here
+1 1404
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+40
+start here
+1 3767
+2 1856
+11 1277
+14 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+41
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+42
+start here
+1 1220
+14 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+43
+start here
+1 4570
+3 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+44
+start here
+1 2200
+2 1404
+14 1277
+29 845
+54 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+45
+start here
+1 35732
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+46
+start here
+1 7417
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+47
+start here
+1 3767
+4 1404
+11 1277
+15 845
+18 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+48
+start here
+1 1856
+12 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+49
+start here
+1 6089
+2 4570
+5 3392
+12 1856
+15 1220
+42 845
+58 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+50
+start here
+1 35732
+2 4570
+3 3392
+4 1075
+7 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+51
+start here
+1 32764
+3 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+52
+start here
+1 1856
+5 1404
+14 1220
+32 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+53
+start here
+1 14193
+4 3392
+5 2200
+9 845
+24 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+54
+start here
+1 32764
+3 5413
+4 845
+14 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+55
+start here
+1 16942
+2 6089
+3 1404
+7 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+56
+start here
+1 4570
+3 2200
+7 1404
+14 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+57
+start here
+1 7417
+3 6089
+4 1220
+9 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+58
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+59
+start here
+1 16942
+2 1404
+10 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+60
+start here
+1 1075
+12 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+61
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+62
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+63
+start here
+1 2200
+4 1220
+6 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+64
+start here
+1 1856
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+65
+start here
+1 6089
+2 1404
+15 1220
+19 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+66
+start here
+1 35732
+2 2200
+3 1404
+18 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+67
+start here
+1 14193
+2 5413
+4 4570
+7 3392
+8 1856
+20 845
+49 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+68
+start here
+1 1075
+43 845
+49 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+69
+start here
+1 5714
+3 1404
+7 1075
+16 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+70
+start here
+1 1404
+8 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+71
+start here
+1 14193
+2 1220
+24 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+72
+start here
+1 32764
+2 3392
+8 1856
+15 1404
+19 845
+36 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+73
+start here
+1 35732
+2 1856
+5 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+74
+start here
+1 6089
+2 3392
+3 1404
+17 1277
+18 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+75
+start here
+1 4570
+3 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+76
+start here
+1 3392
+5 1856
+20 1277
+26 845
+29 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+77
+start here
+1 6089
+2 5714
+3 1404
+9 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+78
+start here
+1 3392
+6 845
+34 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+79
+start here
+1 4522
+3 2200
+4 1220
+27 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+80
+start here
+1 35732
+2 2200
+7 1404
+28 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+81
+start here
+1 7417
+2 1220
+6 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+82
+start here
+1 3767
+8 1404
+18 1277
+28 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+83
+start here
+1 3392
+4 2200
+6 1856
+13 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+84
+start here
+1 43702
+2 32764
+3 8993
+4 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+85
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+86
+start here
+1 2200
+2 1856
+3 1404
+7 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+87
+start here
+1 16942
+2 3767
+3 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+88
+start here
+1 1220
+6 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+89
+start here
+1 1075
+16 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+90
+start here
+1 3542
+7 1404
+11 1220
+16 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+91
+start here
+1 2200
+5 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+92
+start here
+1 35732
+4 4522
+7 1404
+10 845
+33 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+93
+start here
+1 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+94
+start here
+1 16942
+2 845
+4 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+95
+start here
+1 1856
+5 1404
+7 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+96
+start here
+1 8561
+3 3542
+4 1856
+6 1075
+26 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+97
+start here
+1 14193
+4 1404
+6 845
+26 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+98
+start here
+1 43702
+2 4522
+4 2200
+9 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+99
+start here
+1 5413
+2 151
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+size of the set = 20
+0
+start here
+1 3040
+2 1615
+6 1373
+7 231
+10 161
+22 87
+66 23
+244 4
+582 3
+1137 0
+del phat = 0.0317993 and iterations = 21966
+end here
+1
+start here
+1 1380
+3 213
+5 119
+23 12
+217 4
+698 0
+del phat = 0.0325361 and iterations = 22475
+end here
+2
+start here
+1 782
+4 223
+11 184
+18 4
+328 3
+3322 0
+del phat = 0.0322414 and iterations = 22271
+end here
+3
+start here
+1 913
+4 534
+5 17
+22 9
+180 3
+4070 1
+5644 0
+del phat = 0.0313572 and iterations = 21660
+end here
+4
+start here
+1 2380
+4 1724
+8 907
+9 44
+66 42
+120 37
+138 31
+278 29
+311 18
+537 8
+801 4
+3151 1
+4293 0
+del phat = 0.0316519 and iterations = 21864
+end here
+5
+start here
+1 4227
+2 1696
+3 1017
+4 808
+7 713
+8 284
+18 123
+20 17
+53 1
+8901 0
+del phat = 0.033494 and iterations = 23136
+end here
+6
+start here
+1 3381
+2 7
+579 6
+731 4
+1741 3
+1814 1
+4381 0
+del phat = 0.0323887 and iterations = 22373
+end here
+7
+start here
+1 154
+36 140
+65 87
+70 27
+189 3
+788 1
+4120 0
+del phat = 0.0332729 and iterations = 22984
+end here
+8
+start here
+1 5482
+2 2427
+3 1228
+4 307
+9 103
+29 67
+37 37
+78 11
+271 8
+775 1
+3220 0
+del phat = 0.0328308 and iterations = 22678
+end here
+9
+start here
+1 1494
+2 451
+6 275
+13 163
+32 90
+33 13
+133 6
+438 5
+1135 1
+1685 0
+del phat = 0.0332729 and iterations = 22984
+end here
+10
+start here
+1 711
+2 96
+37 83
+71 60
+78 54
+342 37
+395 16
+572 1
+6142 0
+del phat = 0.0309151 and iterations = 21355
+end here
+11
+start here
+1 5188
+2 1640
+3 153
+33 75
+48 26
+103 10
+153 5
+849 3
+4611 1
+6982 0
+del phat = 0.0324624 and iterations = 22424
+end here
+12
+start here
+1 1906
+3 259
+9 55
+37 45
+146 11
+450 8
+494 4
+855 3
+5293 1
+6310 0
+del phat = 0.0335676 and iterations = 23187
+end here
+13
+start here
+1 751
+6 302
+13 259
+28 116
+108 114
+128 107
+155 62
+161 15
+206 6
+485 4
+585 3
+1211 1
+del phat = 0.0333466 and iterations = 23035
+14962 0
+end here
+14
+start here
+1 538
+2 160
+18 21
+54 7
+175 6
+334 1
+4828 0
+del phat = 0.0329782 and iterations = 22780
+end here
+15
+start here
+1 45
+19 21
+152 18
+210 14
+329 4
+425 3
+716 1
+5085 0
+del phat = 0.0317256 and iterations = 21915
+end here
+16
+start here
+1 451
+2 369
+9 31
+54 3
+61 1
+3651 0
+del phat = 0.032094 and iterations = 22169
+end here
+17
+start here
+1 2864
+2 275
+8 113
+24 85
+97 1
+2300 0
+del phat = 0.0311362 and iterations = 21508
+end here
+18
+start here
+1 2339
+2 1669
+4 1013
+6 574
+8 201
+12 61
+31 60
+54 31
+104 27
+122 1
+3625 0
+del phat = 0.0333466 and iterations = 23035
+end here
+19
+start here
+1 797
+2 613
+3 467
+5 173
+8 116
+11 85
+23 5
+128 1
+4181 0
+del phat = 0.0323151 and iterations = 22322
+end here
+20
+start here
+1 3168
+2 1303
+7 202
+11 30
+158 25
+221 5
+375 3
+2280 1
+6350 0
+del phat = 0.0333466 and iterations = 23035
+end here
+21
+start here
+1 20
+76 7
+276 3
+1877 0
+del phat = 0.0326098 and iterations = 22526
+end here
+22
+start here
+1 2186
+3 1266
+4 680
+11 180
+19 97
+39 75
+66 51
+100 36
+106 35
+125 15
+308 10
+969 5
+1047 4
+2285 3
+3659 0
+del phat = 0.0316519 and iterations = 21864
+end here
+23
+start here
+1 575
+3 354
+4 48
+114 42
+141 13
+168 0
+del phat = 0.0325361 and iterations = 22475
+end here
+24
+start here
+1 2922
+3 601
+12 220
+18 210
+28 143
+32 12
+501 7
+907 0
+del phat = 0.0343781 and iterations = 23747
+end here
+25
+start here
+1 1954
+2 743
+3 553
+8 117
+57 32
+159 11
+318 1
+2598 0
+del phat = 0.0331992 and iterations = 22933
+end here
+26
+start here
+1 4355
+2 1346
+4 330
+8 120
+18 53
+63 48
+119 22
+422 10
+498 3
+1732 1
+4704 0
+del phat = 0.0329782 and iterations = 22780
+end here
+27
+start here
+1 14084
+2 5856
+3 575
+4 157
+5 63
+28 27
+153 4
+235 3
+1659 1
+6023 0
+del phat = 0.0291468 and iterations = 20133
+end here
+28
+start here
+1 270
+12 105
+14 75
+19 11
+57 1
+1713 0
+del phat = 0.0342308 and iterations = 23645
+end here
+29
+start here
+1 1320
+2 64
+17 50
+26 19
+123 7
+1065 5
+1441 0
+del phat = 0.0352623 and iterations = 24358
+end here
+30
+start here
+1 389
+16 95
+26 8
+128 7
+1399 5
+1571 1
+4737 0
+del phat = 0.0316519 and iterations = 21864
+end here
+31
+start here
+1 475
+9 153
+41 32
+128 26
+186 4
+197 3
+1133 1
+2371 0
+del phat = 0.0317993 and iterations = 21966
+end here
+32
+start here
+1 183
+3 37
+157 31
+186 24
+187 4
+261 3
+1732 1
+5356 0
+del phat = 0.033494 and iterations = 23136
+end here
+33
+start here
+1 874
+2 246
+6 69
+9 50
+43 3
+285 0
+del phat = 0.0317993 and iterations = 21966
+end here
+34
+start here
+1 2684
+2 1523
+5 18
+94 12
+143 7
+305 3
+1463 1
+7671 0
+del phat = 0.0335676 and iterations = 23187
+end here
+35
+start here
+1 576
+5 431
+6 228
+9 104
+10 40
+21 30
+35 13
+133 7
+146 4
+801 0
+del phat = 0.0343781 and iterations = 23747
+end here
+36
+start here
+1 892
+5 639
+6 168
+9 31
+40 25
+245 20
+359 7
+1011 5
+1224 4
+1753 1
+7704 0
+del phat = 0.0332729 and iterations = 22984
+end here
+37
+start here
+1 810
+2 768
+3 755
+7 663
+9 147
+18 92
+38 16
+114 14
+253 1
+344 0
+del phat = 0.0311362 and iterations = 21508
+end here
+38
+start here
+1 4093
+3 553
+4 517
+5 68
+9 49
+45 41
+71 27
+77 15
+103 4
+349 3
+4031 0
+del phat = 0.0341571 and iterations = 23594
+end here
+39
+start here
+1 1890
+3 463
+4 156
+5 144
+11 75
+88 41
+210 5
+448 3
+1412 1
+4553 0
+del phat = 0.031873 and iterations = 22017
+end here
+40
+start here
+1 934
+3 332
+10 186
+15 82
+85 41
+90 36
+118 19
+225 1
+5836 0
+del phat = 0.0329782 and iterations = 22780
+end here
+41
+start here
+1 153
+2 85
+28 61
+53 45
+117 41
+141 29
+168 24
+283 21
+284 7
+850 0
+del phat = 0.0316519 and iterations = 21864
+end here
+42
+start here
+1 1617
+2 444
+5 419
+18 284
+25 145
+41 71
+164 64
+246 18
+574 7
+1538 1
+2266 0
+del phat = 0.0324624 and iterations = 22424
+end here
+43
+start here
+1 3452
+2 1423
+3 339
+7 187
+9 145
+15 116
+50 38
+137 37
+141 20
+181 14
+675 4
+925 3
+1338 1
+8958 0
+del phat = 0.0337887 and iterations = 23340
+end here
+44
+start here
+1 1645
+5 1097
+6 775
+7 558
+9 367
+24 332
+32 26
+85 18
+617 3
+1157 2
+1183 0
+del phat = 0.031873 and iterations = 22017
+end here
+45
+start here
+1 1255
+7 168
+41 71
+56 45
+74 31
+175 15
+327 5
+757 1
+1639 0
+del phat = 0.0314309 and iterations = 21711
+end here
+46
+start here
+1 3474
+2 437
+3 173
+11 22
+162 14
+274 11
+1181 7
+2928 5
+3859 3
+7765 2
+9844 1
+10969 0
+del phat = 0.0319467 and iterations = 22067
+end here
+47
+start here
+1 1346
+2 329
+11 149
+12 145
+16 90
+42 26
+132 13
+133 12
+198 4
+716 1
+4809 0
+del phat = 0.0325361 and iterations = 22475
+end here
+48
+start here
+1 1238
+4 423
+7 271
+12 186
+13 113
+18 42
+166 14
+168 6
+882 4
+939 0
+del phat = 0.0326098 and iterations = 22526
+end here
+49
+start here
+1 3589
+2 111
+14 71
+17 25
+39 4
+1222 0
+del phat = 0.0314309 and iterations = 21711
+end here
+50
+start here
+1 798
+3 489
+8 393
+27 288
+42 202
+43 110
+58 41
+159 3
+1435 0
+del phat = 0.0333466 and iterations = 23035
+end here
+51
+start here
+1 2081
+2 197
+5 94
+21 2
+2497 0
+del phat = 0.031873 and iterations = 22017
+end here
+52
+start here
+1 5090
+2 740
+3 61
+19 53
+25 11
+896 4
+930 3
+2009 1
+2655 0
+del phat = 0.0326835 and iterations = 22576
+end here
+53
+start here
+1 3223
+2 2952
+3 2288
+4 284
+22 86
+45 72
+97 23
+231 12
+460 3
+604 1
+631 0
+del phat = 0.0335676 and iterations = 23187
+end here
+54
+start here
+1 1865
+2 60
+52 51
+64 38
+73 27
+116 20
+556 10
+1158 0
+del phat = 0.0322414 and iterations = 22271
+end here
+55
+start here
+1 836
+3 186
+15 6
+90 5
+622 3
+1095 1
+9500 0
+del phat = 0.0329782 and iterations = 22780
+end here
+56
+start here
+1 832
+3 459
+5 146
+31 15
+108 4
+2220 1
+4363 0
+del phat = 0.0334203 and iterations = 23085
+end here
+57
+start here
+1 838
+2 550
+7 63
+10 31
+13 24
+103 4
+492 3
+4528 2
+5391 0
+del phat = 0.0319467 and iterations = 22067
+end here
+58
+start here
+1 2935
+2 418
+3 101
+29 89
+35 27
+64 14
+69 3
+2066 0
+del phat = 0.0338624 and iterations = 23391
+end here
+59
+start here
+1 1101
+2 464
+8 463
+13 38
+19 13
+35 3
+752 1
+2636 0
+del phat = 0.0341571 and iterations = 23594
+end here
+60
+start here
+1 2214
+2 746
+3 79
+30 56
+125 48
+160 12
+364 7
+1356 3
+2850 0
+del phat = 0.0324624 and iterations = 22424
+end here
+61
+start here
+1 404
+4 117
+15 33
+53 31
+203 7
+274 4
+3792 1
+5104 0
+del phat = 0.0321677 and iterations = 22220
+end here
+62
+start here
+1 276
+2 53
+188 45
+201 25
+211 14
+373 11
+539 10
+864 4
+4154 1
+5694 0
+del phat = 0.0343781 and iterations = 23747
+end here
+63
+start here
+1 695
+3 557
+7 303
+10 91
+59 4
+1341 1
+5636 0
+del phat = 0.0328308 and iterations = 22678
+end here
+64
+start here
+1 1263
+4 1249
+5 466
+7 234
+11 71
+14 55
+108 49
+159 37
+258 29
+311 15
+375 3
+1894 0
+del phat = 0.0331992 and iterations = 22933
+end here
+65
+start here
+1 4489
+2 590
+3 281
+35 117
+52 88
+93 82
+111 40
+135 22
+141 14
+205 6
+466 3
+2420 1
+10055 0
+del phat = 0.0331992 and iterations = 22933
+end here
+66
+start here
+1 2226
+2 2085
+3 390
+6 296
+34 238
+44 89
+108 23
+123 12
+136 3
+1326 0
+del phat = 0.0335676 and iterations = 23187
+end here
+67
+start here
+1 1825
+2 400
+5 396
+10 111
+11 59
+24 55
+40 45
+78 23
+218 11
+331 3
+1554 1
+3123 0
+del phat = 0.0328308 and iterations = 22678
+end here
+68
+start here
+1 1754
+2 845
+4 456
+13 332
+18 102
+55 79
+56 29
+115 8
+1052 4
+1417 0
+del phat = 0.0321677 and iterations = 22220
+end here
+69
+start here
+1 5068
+2 1844
+5 455
+9 32
+134 20
+159 13
+176 7
+305 0
+del phat = 0.0310625 and iterations = 21457
+end here
+70
+start here
+1 611
+2 561
+3 502
+4 308
+7 103
+32 55
+38 31
+92 13
+404 12
+488 4
+530 0
+del phat = 0.0327571 and iterations = 22627
+end here
+71
+start here
+1 4121
+3 2576
+4 1061
+8 1015
+10 120
+23 41
+52 13
+85 11
+348 7
+510 3
+926 2
+2335 1
+5285 0
+del phat = 0.033494 and iterations = 23136
+end here
+72
+start here
+1 1224
+2 581
+4 459
+9 232
+17 17
+20 9
+641 6
+936 4
+3356 3
+3495 1
+del phat = 0.033715 and iterations = 23289
+end here
+73
+start here
+1 263
+24 109
+53 12
+200 7
+1007 3
+1235 2
+2100 1
+8251 0
+del phat = 0.0315782 and iterations = 21813
+end here
+74
+start here
+1 97
+5 63
+17 26
+67 22
+325 7
+375 4
+380 3
+1402 1
+11804 0
+del phat = 0.0333466 and iterations = 23035
+end here
+75
+start here
+1 260
+2 168
+17 108
+39 80
+52 53
+58 11
+1215 8
+1735 7
+1809 3
+2261 2
+3800 0
+del phat = 0.0308414 and iterations = 21304
+end here
+76
+start here
+1 1470
+2 1026
+3 384
+4 22
+46 12
+71 7
+241 3
+1458 1
+1791 0
+del phat = 0.033715 and iterations = 23289
+end here
+77
+start here
+1 340
+3 13
+10 3
+1116 1
+1741 0
+del phat = 0.0329782 and iterations = 22780
+end here
+78
+start here
+1 1379
+4 321
+6 232
+28 170
+44 153
+68 72
+120 60
+153 31
+184 30
+247 24
+334 20
+412 19
+472 14
+534 1
+9934 0
+del phat = 0.035336 and iterations = 24409
+end here
+79
+start here
+1 181
+3 34
+14 22
+121 15
+228 7
+990 6
+1517 0
+del phat = 0.0321677 and iterations = 22220
+end here
+80
+start here
+1 2483
+2 2388
+3 247
+9 224
+12 75
+18 45
+65 11
+483 5
+1313 3
+2492 1
+11016 0
+del phat = 0.0315782 and iterations = 21813
+end here
+81
+start here
+1 3275
+2 1007
+3 784
+14 199
+25 172
+31 12
+699 3
+1239 1
+7020 0
+del phat = 0.0323151 and iterations = 22322
+end here
+82
+start here
+1 2054
+3 1367
+4 896
+5 276
+8 154
+12 146
+16 28
+92 7
+494 4
+2054 1
+del phat = 0.0331256 and iterations = 22882
+19093 0
+end here
+83
+start here
+1 282
+14 277
+38 124
+41 11
+212 4
+283 0
+del phat = 0.0310625 and iterations = 21457
+end here
+84
+start here
+1 2473
+2 493
+3 302
+5 117
+44 89
+93 11
+134 4
+1016 3
+2256 1
+3682 0
+del phat = 0.0301783 and iterations = 20846
+end here
+85
+start here
+1 784
+4 135
+17 8
+89 7
+606 3
+3556 1
+6813 0
+del phat = 0.0335676 and iterations = 23187
+end here
+86
+start here
+1 3792
+2 1289
+3 630
+7 45
+37 44
+66 19
+99 1
+2279 0
+del phat = 0.0324624 and iterations = 22424
+end here
+87
+start here
+1 8
+1136 4
+3022 3
+3510 2
+4472 1
+del phat = 0.0326098 and iterations = 22526
+13826 0
+end here
+88
+start here
+1 579
+4 467
+9 143
+19 124
+93 68
+116 36
+122 3
+7935 2
+9952 1
+del phat = 0.0322414 and iterations = 22271
+13931 0
+end here
+89
+start here
+1 2218
+2 489
+3 323
+7 53
+45 21
+158 7
+159 4
+724 3
+6143 0
+del phat = 0.0329045 and iterations = 22729
+end here
+90
+start here
+1 6925
+2 263
+3 221
+26 195
+28 153
+40 97
+46 73
+56 48
+130 37
+191 16
+336 3
+1751 1
+5759 0
+del phat = 0.0314309 and iterations = 21711
+end here
+91
+start here
+1 828
+2 227
+5 150
+17 23
+128 17
+189 5
+524 3
+1047 1
+2361 0
+del phat = 0.0328308 and iterations = 22678
+end here
+92
+start here
+1 1848
+2 611
+8 25
+73 11
+187 3
+731 0
+del phat = 0.0319467 and iterations = 22067
+end here
+93
+start here
+1 5322
+2 430
+7 15
+50 4
+875 3
+2211 1
+4227 0
+del phat = 0.0321677 and iterations = 22220
+end here
+94
+start here
+1 403
+2 319
+5 228
+6 201
+11 23
+220 15
+269 1
+6184 0
+del phat = 0.0326835 and iterations = 22576
+end here
+95
+start here
+1 957
+2 550
+6 195
+16 98
+23 32
+28 15
+194 4
+833 3
+2579 1
+6832 0
+del phat = 0.0324624 and iterations = 22424
+end here
+96
+start here
+1 12090
+2 284
+9 37
+46 3
+976 1
+4017 0
+del phat = 0.0317256 and iterations = 21915
+end here
+97
+start here
+1 426
+5 352
+6 160
+54 148
+68 8
+394 4
+1431 3
+1898 1
+3163 0
+del phat = 0.0312098 and iterations = 21558
+end here
+98
+start here
+1 497
+3 111
+8 51
+81 23
+206 13
+232 11
+397 7
+812 1
+6985 0
+del phat = 0.0326835 and iterations = 22576
+end here
+99
+start here
+1 1405
+4 67
+17 36
+41 31
+93 18
+363 11
+502 5
+545 3
+785 0
+del phat = 0.031873 and iterations = 22017
+end here
+size of the set = 20
+0
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+1
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+2
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+3
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+4
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+5
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+6
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+7
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+8
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+9
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+10
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+11
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+12
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+13
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+14
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+15
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+16
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+17
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+18
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+19
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+20
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+21
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+22
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+23
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+24
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+25
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+26
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+27
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+28
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+29
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+30
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+31
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+32
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+33
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+34
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+35
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+36
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+37
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+38
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+39
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+40
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+41
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+42
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+43
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+44
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+45
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+46
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+47
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+48
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+49
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+50
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+51
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+52
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+53
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+54
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+55
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+56
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+57
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+58
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+59
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+60
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+61
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+62
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+63
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+64
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+65
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+66
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+67
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+68
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+69
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+70
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+71
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+72
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+73
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+74
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+75
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+76
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+77
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+78
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+79
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+80
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+81
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+82
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+83
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+84
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+85
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+86
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+87
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+88
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+89
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+90
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+91
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+92
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+93
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+94
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+95
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+96
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+97
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+98
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+99
+start here
+1 1501
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+size of the set = 20
+0
+start here
+1 1501
+2 334
+12 102
+16 26
+143 0
+del phat = 0.0228102 and iterations = 15756
+end here
+1
+start here
+1 3009
+2 2683
+3 1050
+10 288
+18 52
+99 44
+602 6
+664 1
+2351 0
+del phat = 0.0228839 and iterations = 15807
+end here
+2
+start here
+1 467
+7 422
+11 291
+23 151
+40 74
+70 66
+119 18
+368 1
+1132 0
+del phat = 0.0209682 and iterations = 14484
+end here
+3
+start here
+1 1205
+4 746
+14 403
+19 168
+23 52
+97 7
+658 1
+4933 0
+del phat = 0.0221471 and iterations = 15298
+end here
+4
+start here
+1 753
+4 579
+15 3
+138 1
+1484 0
+del phat = 0.0233996 and iterations = 16163
+end here
+5
+start here
+1 1145
+2 258
+6 233
+20 211
+35 202
+50 189
+53 83
+54 15
+90 14
+293 7
+898 3
+2979 0
+del phat = 0.0232523 and iterations = 16062
+end here
+6
+start here
+1 600
+2 149
+3 133
+15 117
+96 71
+103 23
+236 13
+416 6
+429 1
+1180 0
+del phat = 0.0228839 and iterations = 15807
+end here
+7
+start here
+1 1422
+2 108
+98 41
+173 39
+212 13
+245 1
+5084 0
+del phat = 0.021705 and iterations = 14993
+end here
+8
+start here
+1 1224
+2 454
+9 236
+11 103
+19 41
+28 15
+87 10
+144 1
+6475 0
+del phat = 0.0236207 and iterations = 16316
+end here
+9
+start here
+1 6
+1143 4
+1767 1
+2240 0
+del phat = 0.023547 and iterations = 16265
+end here
+10
+start here
+1 81
+85 79
+99 72
+158 10
+515 6
+844 3
+1813 2
+2680 1
+5144 0
+del phat = 0.0242101 and iterations = 16723
+end here
+11
+start here
+1 233
+4 10
+20 2
+67 1
+590 0
+del phat = 0.0229576 and iterations = 15858
+end here
+12
+start here
+1 843
+3 55
+29 13
+118 10
+324 3
+336 1
+5403 0
+del phat = 0.0227365 and iterations = 15705
+end here
+13
+start here
+1 12011
+2 1130
+7 593
+9 208
+11 50
+29 10
+698 4
+1055 1
+5422 0
+del phat = 0.0232523 and iterations = 16062
+end here
+14
+start here
+1 1504
+2 1339
+4 372
+10 101
+53 91
+90 45
+116 6
+150 3
+698 1
+10795 0
+del phat = 0.0228839 and iterations = 15807
+end here
+15
+start here
+1 1069
+3 288
+27 270
+29 198
+30 2
+1066 1
+10864 0
+del phat = 0.0247259 and iterations = 17080
+end here
+16
+start here
+1 1182
+3 929
+11 507
+13 155
+36 102
+68 71
+72 61
+77 26
+82 9
+206 7
+742 6
+1146 1
+3107 0
+del phat = 0.0228839 and iterations = 15807
+end here
+17
+start here
+1 4747
+2 1187
+4 137
+29 103
+69 55
+99 6
+339 1
+11447 0
+del phat = 0.0226628 and iterations = 15654
+end here
+18
+start here
+1 582
+9 94
+24 31
+169 6
+1450 2
+3074 1
+3830 0
+del phat = 0.023326 and iterations = 16113
+end here
+19
+start here
+1 5585
+2 278
+3 207
+33 128
+35 13
+77 6
+147 2
+533 0
+del phat = 0.0237681 and iterations = 16418
+end here
+20
+start here
+1 3424
+2 1923
+3 1135
+5 1039
+6 346
+18 221
+31 124
+61 98
+81 13
+221 10
+291 6
+855 4
+1939 3
+2237 1
+4830 0
+del phat = 0.0230312 and iterations = 15909
+end here
+21
+start here
+1 225
+2 195
+3 38
+28 29
+112 4
+647 0
+del phat = 0.0224418 and iterations = 15502
+end here
+22
+start here
+1 202
+14 184
+22 100
+29 83
+58 14
+104 10
+314 1
+2242 0
+del phat = 0.0222944 and iterations = 15400
+end here
+23
+start here
+1 521
+3 470
+16 369
+17 123
+47 36
+114 33
+163 13
+226 6
+912 0
+del phat = 0.0228102 and iterations = 15756
+end here
+24
+start here
+1 1462
+3 692
+9 618
+11 392
+16 52
+72 45
+162 33
+193 27
+279 14
+355 1
+1278 0
+del phat = 0.0236207 and iterations = 16316
+end here
+25
+start here
+1 11305
+2 779
+3 209
+26 173
+52 137
+115 95
+126 66
+175 41
+189 14
+450 6
+1658 1
+5070 0
+del phat = 0.0239891 and iterations = 16571
+end here
+26
+start here
+1 3205
+2 500
+5 95
+67 38
+78 21
+81 16
+194 13
+208 7
+292 6
+421 3
+2926 1
+3854 0
+del phat = 0.0222207 and iterations = 15349
+end here
+27
+start here
+1 4310
+2 1126
+5 806
+13 458
+14 307
+18 72
+54 4
+351 0
+del phat = 0.0230312 and iterations = 15909
+end here
+28
+start here
+1 1947
+2 641
+12 32
+52 3
+318 0
+del phat = 0.0231786 and iterations = 16011
+end here
+29
+start here
+1 1113
+3 693
+7 523
+8 87
+13 61
+59 15
+171 6
+2208 0
+del phat = 0.0223681 and iterations = 15451
+end here
+30
+start here
+1 1006
+3 862
+9 714
+10 109
+42 2
+431 1
+2924 0
+del phat = 0.0231786 and iterations = 16011
+end here
+31
+start here
+1 792
+8 304
+13 180
+25 168
+33 110
+40 41
+82 10
+246 1
+586 0
+del phat = 0.0227365 and iterations = 15705
+end here
+32
+start here
+1 1050
+2 784
+3 574
+6 1
+3241 0
+del phat = 0.0239891 and iterations = 16571
+end here
+33
+start here
+1 2105
+2 1167
+11 20
+18 1
+1532 0
+del phat = 0.0239154 and iterations = 16520
+end here
+34
+start here
+1 8942
+2 3998
+4 2976
+5 1557
+6 795
+9 198
+39 104
+75 52
+170 50
+282 45
+330 13
+372 4
+1012 3
+2821 1
+3555 0
+del phat = 0.0228102 and iterations = 15756
+end here
+35
+start here
+1 2853
+3 563
+11 288
+24 59
+53 55
+63 1
+1500 0
+del phat = 0.0230312 and iterations = 15909
+end here
+36
+start here
+1 110
+7 84
+84 1
+7558 0
+del phat = 0.0223681 and iterations = 15451
+end here
+37
+start here
+1 798
+8 579
+17 119
+38 88
+70 64
+96 58
+187 47
+323 36
+331 1
+569 0
+del phat = 0.0229576 and iterations = 15858
+end here
+38
+start here
+1 1575
+2 1118
+3 1044
+7 215
+11 41
+77 29
+92 13
+117 6
+284 1
+7770 0
+del phat = 0.021926 and iterations = 15145
+end here
+39
+start here
+1 596
+5 116
+10 106
+88 66
+289 50
+308 41
+326 22
+674 6
+1254 1
+3692 0
+del phat = 0.0222944 and iterations = 15400
+end here
+40
+start here
+1 2838
+4 1327
+8 620
+9 62
+35 58
+79 43
+89 0
+del phat = 0.0228102 and iterations = 15756
+end here
+41
+start here
+1 1182
+5 1118
+14 523
+16 163
+21 84
+156 67
+194 38
+325 4
+522 1
+1210 0
+del phat = 0.0231049 and iterations = 15960
+end here
+42
+start here
+1 1220
+4 845
+5 205
+60 188
+62 128
+65 106
+66 103
+78 87
+132 54
+229 50
+253 20
+344 7
+419 4
+425 0
+del phat = 0.0228839 and iterations = 15807
+end here
+43
+start here
+1 1924
+2 228
+17 41
+28 19
+36 13
+63 1
+2276 0
+del phat = 0.0229576 and iterations = 15858
+end here
+44
+start here
+1 1429
+2 1167
+3 480
+9 70
+159 33
+166 32
+185 22
+201 1
+5955 0
+del phat = 0.0225892 and iterations = 15604
+end here
+45
+start here
+1 948
+3 457
+9 324
+15 224
+36 80
+58 6
+756 2
+2568 0
+del phat = 0.0224418 and iterations = 15502
+end here
+46
+start here
+1 3987
+2 2652
+4 288
+7 147
+19 78
+62 77
+74 1
+2293 0
+del phat = 0.0241365 and iterations = 16672
+end here
+47
+start here
+1 1219
+2 658
+6 512
+12 316
+22 79
+52 38
+140 14
+199 6
+785 1
+1084 0
+del phat = 0.0221471 and iterations = 15298
+end here
+48
+start here
+1 1150
+2 971
+5 52
+30 29
+49 13
+1250 6
+2109 2
+2314 1
+3514 0
+del phat = 0.0227365 and iterations = 15705
+end here
+49
+start here
+1 306
+27 247
+47 3
+239 1
+2638 0
+del phat = 0.0230312 and iterations = 15909
+end here
+50
+start here
+1 480
+3 68
+108 67
+382 22
+472 10
+560 6
+1261 1
+1421 0
+del phat = 0.0219997 and iterations = 15196
+end here
+51
+start here
+1 1187
+9 33
+32 13
+55 10
+813 4
+1344 2
+2892 0
+del phat = 0.0225155 and iterations = 15553
+end here
+52
+start here
+1 3454
+3 1383
+5 833
+10 281
+28 49
+29 38
+113 26
+385 3
+986 0
+del phat = 0.0230312 and iterations = 15909
+end here
+53
+start here
+1 679
+5 225
+43 91
+79 54
+99 36
+233 14
+397 1
+6406 0
+del phat = 0.0231786 and iterations = 16011
+end here
+54
+start here
+1 720
+2 631
+3 595
+18 394
+19 371
+21 182
+24 92
+63 15
+78 13
+167 6
+207 2
+3860 1
+6098 0
+del phat = 0.0205998 and iterations = 14229
+end here
+55
+start here
+1 2535
+6 109
+23 10
+413 7
+573 4
+697 1
+2031 0
+del phat = 0.0225892 and iterations = 15604
+end here
+56
+start here
+1 725
+4 436
+20 57
+34 52
+72 44
+106 15
+121 14
+662 0
+del phat = 0.021926 and iterations = 15145
+end here
+57
+start here
+1 4836
+2 1896
+4 106
+17 66
+46 63
+167 36
+353 13
+788 10
+936 2
+941 1
+5208 0
+del phat = 0.0226628 and iterations = 15654
+end here
+58
+start here
+1 2854
+3 616
+6 52
+203 31
+416 6
+523 3
+2398 1
+2955 0
+del phat = 0.023326 and iterations = 16113
+end here
+59
+start here
+1 815
+5 730
+13 221
+23 174
+39 50
+76 0
+del phat = 0.0226628 and iterations = 15654
+end here
+60
+start here
+1 1270
+2 590
+18 276
+29 198
+48 180
+59 151
+69 101
+76 64
+106 4
+257 0
+del phat = 0.0231786 and iterations = 16011
+end here
+61
+start here
+1 697
+3 15
+57 6
+273 1
+867 0
+del phat = 0.0226628 and iterations = 15654
+end here
+62
+start here
+1 3599
+3 936
+5 175
+25 110
+44 13
+73 6
+568 0
+del phat = 0.0239154 and iterations = 16520
+end here
+63
+start here
+1 594
+9 219
+16 122
+71 95
+85 54
+153 26
+261 20
+273 13
+285 1
+2343 0
+del phat = 0.0225155 and iterations = 15553
+end here
+64
+start here
+1 103
+9 87
+14 9
+462 6
+1068 3
+1817 1
+1908 0
+del phat = 0.0228839 and iterations = 15807
+end here
+65
+start here
+1 610
+3 41
+88 39
+290 14
+503 8
+564 4
+723 3
+892 1
+1443 0
+del phat = 0.0219997 and iterations = 15196
+end here
+66
+start here
+1 766
+2 574
+11 291
+15 50
+40 33
+248 15
+758 13
+931 6
+2589 1
+8887 0
+del phat = 0.0234733 and iterations = 16214
+end here
+67
+start here
+1 9808
+2 801
+3 404
+13 257
+17 233
+37 134
+58 111
+87 41
+160 23
+186 19
+468 13
+796 10
+920 1
+1227 0
+del phat = 0.0225155 and iterations = 15553
+end here
+68
+start here
+1 1287
+5 98
+16 92
+23 14
+149 7
+520 1
+2826 0
+del phat = 0.0226628 and iterations = 15654
+end here
+69
+start here
+1 7117
+2 3657
+4 618
+6 463
+9 151
+88 66
+143 41
+324 37
+325 7
+949 1
+1099 0
+del phat = 0.0227365 and iterations = 15705
+end here
+70
+start here
+1 13372
+2 1340
+3 1050
+4 383
+23 364
+29 244
+52 224
+53 196
+60 9
+659 1
+1053 0
+del phat = 0.0228102 and iterations = 15756
+end here
+71
+start here
+1 4372
+2 406
+5 357
+7 45
+103 10
+670 1
+8645 0
+del phat = 0.0220734 and iterations = 15247
+end here
+72
+start here
+1 849
+6 798
+12 789
+16 527
+18 320
+38 168
+41 101
+78 20
+112 10
+258 1
+3929 0
+del phat = 0.0245785 and iterations = 16978
+end here
+73
+start here
+1 2012
+2 467
+5 3
+101 1
+4582 0
+del phat = 0.0222944 and iterations = 15400
+end here
+74
+start here
+1 1825
+2 990
+5 891
+6 32
+234 10
+314 6
+770 1
+del phat = 0.0224418 and iterations = 15502
+end here
+75
+start here
+1 604
+10 95
+22 63
+34 41
+86 37
+237 26
+308 14
+397 6
+1161 4
+1828 1
+1932 0
+del phat = 0.0215576 and iterations = 14891
+end here
+76
+start here
+1 2100
+2 1166
+3 296
+6 247
+19 97
+32 15
+188 10
+610 2
+1457 1
+6030 0
+del phat = 0.0201577 and iterations = 13924
+end here
+77
+start here
+1 4816
+2 3484
+3 947
+5 697
+7 381
+27 10
+44 4
+445 1
+3400 0
+del phat = 0.0243575 and iterations = 16825
+end here
+78
+start here
+1 725
+4 337
+14 106
+55 32
+58 19
+170 10
+376 6
+459 2
+472 1
+1632 0
+del phat = 0.0236207 and iterations = 16316
+end here
+79
+start here
+1 6014
+2 4032
+3 13
+6 7
+170 6
+1197 3
+1277 1
+4115 0
+del phat = 0.0225155 and iterations = 15553
+end here
+80
+start here
+1 373
+5 55
+105 18
+199 13
+660 10
+997 1
+8596 0
+del phat = 0.0231049 and iterations = 15960
+end here
+81
+start here
+1 8189
+2 3229
+3 79
+22 55
+218 6
+417 0
+del phat = 0.0217787 and iterations = 15044
+end here
+82
+start here
+1 1577
+3 754
+4 733
+10 426
+14 57
+33 3
+721 0
+del phat = 0.0228102 and iterations = 15756
+end here
+83
+start here
+1 2760
+4 357
+8 189
+18 119
+75 66
+226 31
+315 6
+885 0
+del phat = 0.0220734 and iterations = 15247
+end here
+84
+start here
+1 1585
+2 207
+11 198
+13 110
+24 101
+41 80
+67 6
+558 1
+3767 0
+del phat = 0.0230312 and iterations = 15909
+end here
+85
+start here
+1 897
+2 24
+85 16
+123 15
+293 0
+del phat = 0.0231049 and iterations = 15960
+end here
+86
+start here
+1 912
+6 472
+11 101
+69 3
+336 1
+3416 0
+del phat = 0.0237681 and iterations = 16418
+end here
+87
+start here
+1 2262
+4 1471
+5 508
+6 334
+45 285
+46 175
+51 36
+68 14
+107 6
+316 4
+419 0
+del phat = 0.0240628 and iterations = 16621
+end here
+88
+start here
+1 974
+3 86
+118 41
+119 20
+135 4
+167 1
+del phat = 0.0239154 and iterations = 16520
+15051 0
+end here
+89
+start here
+1 760
+3 531
+4 304
+10 14
+179 13
+285 1
+2839 0
+del phat = 0.0229576 and iterations = 15858
+end here
+90
+start here
+1 558
+8 390
+9 139
+29 98
+38 29
+150 23
+293 13
+358 3
+1474 1
+6860 0
+del phat = 0.0226628 and iterations = 15654
+end here
+91
+start here
+1 388
+3 41
+7 6
+31 1
+5662 0
+del phat = 0.0224418 and iterations = 15502
+end here
+92
+start here
+1 35
+173 19
+194 1
+1049 0
+del phat = 0.0215576 and iterations = 14891
+end here
+93
+start here
+1 71
+6 3
+136 1
+405 0
+del phat = 0.0231049 and iterations = 15960
+end here
+94
+start here
+1 1991
+2 205
+11 176
+14 135
+69 45
+295 8
+449 6
+796 1
+1759 0
+del phat = 0.021926 and iterations = 15145
+end here
+95
+start here
+1 6562
+2 3849
+3 3599
+4 714
+5 168
+8 115
+23 70
+28 55
+45 18
+97 8
+750 4
+828 1
+3399 0
+del phat = 0.0226628 and iterations = 15654
+end here
+96
+start here
+1 13477
+2 843
+3 596
+11 198
+13 86
+84 41
+133 13
+344 1
+4814 0
+del phat = 0.0231049 and iterations = 15960
+end here
+97
+start here
+1 1706
+2 822
+9 16
+25 0
+del phat = 0.0234733 and iterations = 16214
+end here
+98
+start here
+1 1318
+2 124
+13 78
+67 6
+132 4
+1475 0
+del phat = 0.0211892 and iterations = 14636
+end here
+99
+start here
+1 2671
+2 1462
+4 1106
+6 67
+17 13
+108 0
+del phat = 0.0233996 and iterations = 16163
+end here
+size of the set = 20
+0
+start here
+1 3438
+2 165
+202 51
+218 6
+2544 5
+4733 4
+9901 2
+10047 0
+del phat = 0.0317993 and iterations = 21966
+end here
+1
+start here
+1 10670
+2 10059
+3 4919
+5 2598
+6 329
+7 241
+14 42
+170 11
+889 10
+938 1
+del phat = 0.0308414 and iterations = 21304
+end here
+2
+start here
+1 1440
+2 140
+30 108
+94 103
+120 30
+191 9
+582 1
+del phat = 0.0309151 and iterations = 21355
+17163 0
+end here
+3
+start here
+1 3529
+2 3004
+7 3000
+8 300
+22 221
+39 29
+246 24
+301 14
+1682 4
+3648 1
+4455 0
+del phat = 0.0335676 and iterations = 23187
+end here
+4
+start here
+1 9380
+2 6022
+3 1266
+8 1234
+12 864
+14 399
+20 29
+218 10
+911 8
+3107 4
+4373 2
+7103 0
+del phat = 0.0311362 and iterations = 21508
+end here
+5
+start here
+1 3808
+2 3413
+3 1098
+7 73
+37 48
+230 43
+268 4
+2584 0
+del phat = 0.0312098 and iterations = 21558
+end here
+6
+start here
+1 5775
+2 170
+17 79
+24 67
+49 1
+11721 0
+del phat = 0.0311362 and iterations = 21508
+end here
+7
+start here
+1 6235
+2 453
+12 444
+15 221
+69 4
+251 1
+5668 0
+del phat = 0.0323151 and iterations = 22322
+end here
+8
+start here
+1 2067
+3 857
+4 39
+58 4
+2015 2
+5035 1
+10640 0
+del phat = 0.0312098 and iterations = 21558
+end here
+9
+start here
+1 2080
+2 1017
+21 155
+55 73
+67 10
+401 5
+4893 0
+del phat = 0.0320203 and iterations = 22118
+end here
+10
+start here
+1 3193
+2 2190
+3 956
+6 157
+21 5
+414 4
+2338 0
+del phat = 0.0326098 and iterations = 22526
+end here
+11
+start here
+1 5572
+2 2173
+3 1601
+5 615
+17 360
+19 202
+95 143
+146 9
+631 8
+1161 4
+1935 2
+del phat = 0.0332729 and iterations = 22984
+15833 1
+end here
+12
+start here
+1 6589
+2 5482
+3 1281
+5 423
+6 23
+360 10
+2111 5
+3339 4
+4547 0
+del phat = 0.0315046 and iterations = 21762
+end here
+13
+start here
+1 1782
+2 1147
+4 603
+11 307
+17 218
+61 183
+69 55
+246 41
+291 11
+551 10
+779 7
+1496 6
+3371 4
+4626 0
+del phat = 0.0323887 and iterations = 22373
+end here
+14
+start here
+1 12652
+2 612
+4 118
+64 16
+340 13
+948 4
+1229 2
+9356 0
+del phat = 0.0303994 and iterations = 20999
+end here
+15
+start here
+1 4440
+3 1144
+7 270
+14 268
+15 182
+18 43
+46 40
+197 14
+632 6
+2435 2
+6599 0
+del phat = 0.0308414 and iterations = 21304
+end here
+16
+start here
+1 11064
+2 4778
+3 904
+5 508
+7 401
+14 174
+20 18
+146 16
+355 9
+1274 4
+9490 2
+9656 0
+del phat = 0.0312835 and iterations = 21609
+end here
+17
+start here
+1 24885
+2 991
+3 71
+269 29
+288 5
+402 0
+del phat = 0.030473 and iterations = 21050
+end here
+18
+start here
+1 5533
+2 4311
+3 900
+6 242
+10 225
+12 17
+855 10
+963 9
+1419 6
+2474 4
+4181 1
+del phat = 0.0328308 and iterations = 22678
+18749 0
+end here
+19
+start here
+1 609
+6 343
+8 124
+27 12
+623 5
+6775 3
+6891 0
+del phat = 0.0317256 and iterations = 21915
+end here
+20
+start here
+1 1852
+4 725
+12 422
+15 383
+36 284
+53 131
+60 31
+686 10
+827 6
+1105 5
+1249 1
+del phat = 0.032094 and iterations = 22169
+end here
+21
+start here
+1 2809
+2 2502
+3 913
+4 522
+5 320
+13 148
+21 8
+519 4
+891 0
+del phat = 0.0298099 and iterations = 20591
+end here
+22
+start here
+1 2250
+5 1417
+8 1073
+13 360
+30 226
+32 163
+53 94
+112 13
+772 10
+2303 0
+del phat = 0.0312098 and iterations = 21558
+end here
+23
+start here
+1 458
+5 4
+3220 0
+del phat = 0.0316519 and iterations = 21864
+end here
+24
+start here
+1 10808
+2 106
+5 82
+13 32
+59 30
+183 8
+606 4
+1899 1
+3155 0
+del phat = 0.0317256 and iterations = 21915
+end here
+25
+start here
+1 219
+2 179
+68 174
+70 171
+74 119
+134 108
+170 65
+207 5
+961 4
+1936 1
+11165 0
+del phat = 0.0317256 and iterations = 21915
+end here
+26
+start here
+1 531
+2 522
+9 324
+17 279
+19 247
+59 147
+86 112
+118 42
+187 29
+272 1
+del phat = 0.0331256 and iterations = 22882
+18333 0
+end here
+27
+start here
+1 6234
+3 768
+8 11
+1426 4
+1948 0
+del phat = 0.0317256 and iterations = 21915
+end here
+28
+start here
+1 664
+5 279
+20 31
+56 28
+315 8
+1017 3
+2841 1
+10690 0
+del phat = 0.0330519 and iterations = 22831
+end here
+29
+start here
+1 2194
+2 165
+47 28
+95 16
+414 10
+553 8
+585 6
+1413 4
+2883 1
+6903 0
+del phat = 0.0301783 and iterations = 20846
+end here
+30
+start here
+1 3351
+2 2512
+4 2222
+5 90
+9 15
+141 10
+187 8
+486 4
+5730 2
+7486 0
+del phat = 0.0301046 and iterations = 20795
+end here
+31
+start here
+1 1464
+11 196
+18 109
+50 18
+480 9
+1463 2
+2540 0
+del phat = 0.0315046 and iterations = 21762
+end here
+32
+start here
+1 4998
+2 4600
+3 3323
+4 2716
+5 2131
+8 1533
+17 1072
+20 1011
+21 498
+29 159
+78 52
+79 14
+234 5
+605 4
+966 1
+7594 0
+del phat = 0.0298836 and iterations = 20642
+end here
+33
+start here
+1 6680
+2 4907
+4 4338
+6 3080
+8 231
+38 132
+131 57
+148 55
+174 48
+176 18
+619 8
+1247 4
+13282 1
+del phat = 0.0313572 and iterations = 21660
+end here
+34
+start here
+1 4795
+3 3466
+6 2452
+7 1821
+21 238
+31 214
+33 41
+51 24
+842 8
+869 6
+1440 4
+3465 2
+11280 1
+del phat = 0.0327571 and iterations = 22627
+14384 0
+end here
+35
+start here
+1 2363
+7 1235
+8 391
+13 149
+66 118
+70 22
+479 6
+1597 5
+1780 4
+2209 0
+del phat = 0.0334203 and iterations = 23085
+end here
+36
+start here
+1 1148
+4 494
+6 190
+9 86
+31 13
+64 11
+1406 9
+1587 1
+9329 0
+del phat = 0.0317256 and iterations = 21915
+end here
+37
+start here
+1 182
+14 143
+104 133
+190 90
+328 16
+329 4
+3451 0
+del phat = 0.0303994 and iterations = 20999
+end here
+38
+start here
+1 423
+27 181
+79 118
+160 64
+370 29
+987 15
+1211 11
+1562 8
+3197 5
+3535 4
+4639 1
+5886 0
+del phat = 0.0327571 and iterations = 22627
+end here
+39
+start here
+1 398
+4 353
+37 5
+160 4
+810 0
+del phat = 0.0337887 and iterations = 23340
+end here
+40
+start here
+1 2363
+2 1448
+4 950
+8 871
+10 805
+14 438
+30 202
+80 4
+5383 0
+del phat = 0.0317993 and iterations = 21966
+end here
+41
+start here
+1 126
+2 42
+8 32
+246 8
+2348 5
+2614 4
+5964 1
+del phat = 0.0335676 and iterations = 23187
+end here
+42
+start here
+1 9348
+2 4935
+4 896
+9 515
+14 222
+17 95
+26 71
+63 63
+125 55
+182 4
+3800 0
+del phat = 0.0336413 and iterations = 23238
+end here
+43
+start here
+1 6742
+2 4441
+5 1197
+6 609
+9 93
+62 75
+66 73
+151 14
+154 10
+998 9
+1577 5
+2631 0
+del phat = 0.0317256 and iterations = 21915
+end here
+44
+start here
+1 791
+8 134
+15 96
+66 75
+282 4
+1527 0
+del phat = 0.0314309 and iterations = 21711
+end here
+45
+start here
+1 2097
+2 1031
+28 932
+39 496
+48 194
+84 45
+104 10
+919 7
+2494 4
+2705 1
+10336 0
+del phat = 0.0311362 and iterations = 21508
+end here
+46
+start here
+1 2238
+6 978
+11 423
+16 80
+80 15
+607 8
+843 4
+2730 0
+del phat = 0.0326835 and iterations = 22576
+end here
+47
+start here
+1 3684
+2 1692
+11 599
+26 214
+70 66
+128 50
+141 24
+380 16
+402 8
+2148 1
+del phat = 0.0315046 and iterations = 21762
+13815 0
+end here
+48
+start here
+1 3182
+2 40
+3 11
+205 1
+11180 0
+del phat = 0.0319467 and iterations = 22067
+end here
+49
+start here
+1 909
+6 436
+7 58
+39 32
+108 20
+236 14
+415 4
+1519 0
+del phat = 0.0312098 and iterations = 21558
+end here
+50
+start here
+1 4810
+2 838
+5 384
+17 196
+61 72
+86 9
+1709 2
+4091 1
+del phat = 0.0309888 and iterations = 21406
+14512 0
+end here
+51
+start here
+1 10671
+2 3075
+4 2109
+5 52
+67 4
+1385 0
+del phat = 0.0306941 and iterations = 21202
+end here
+52
+start here
+1 8280
+2 1057
+6 257
+25 225
+43 80
+50 43
+338 39
+350 38
+420 10
+1558 8
+2341 1
+12544 0
+del phat = 0.0329782 and iterations = 22780
+end here
+53
+start here
+1 3558
+2 1920
+4 286
+11 125
+29 72
+34 47
+70 23
+112 4
+5832 2
+6804 1
+13317 0
+del phat = 0.0323151 and iterations = 22322
+end here
+54
+start here
+1 228
+6 94
+37 52
+110 43
+402 30
+426 6
+1846 4
+2328 3
+4135 2
+9756 1
+del phat = 0.0306204 and iterations = 21151
+end here
+55
+start here
+1 2757
+3 2267
+11 1358
+14 183
+27 92
+34 17
+317 14
+544 13
+850 11
+1155 10
+1240 9
+1923 5
+3304 2
+7244 0
+del phat = 0.0323887 and iterations = 22373
+end here
+56
+start here
+1 3030
+2 569
+3 256
+26 178
+67 163
+121 142
+125 73
+190 64
+215 14
+488 2
+1375 0
+del phat = 0.031873 and iterations = 22017
+end here
+57
+start here
+1 657
+11 578
+15 284
+23 52
+32 42
+95 5
+640 4
+6471 2
+13020 0
+del phat = 0.0335676 and iterations = 23187
+end here
+58
+start here
+1 2699
+2 174
+24 72
+68 21
+87 10
+977 9
+2137 5
+3079 4
+3138 2
+3752 1
+del phat = 0.0337887 and iterations = 23340
+15902 0
+end here
+59
+start here
+1 8547
+2 5203
+3 896
+14 725
+30 218
+38 99
+64 95
+103 66
+120 21
+258 11
+945 10
+1144 1
+3661 0
+del phat = 0.0342308 and iterations = 23645
+end here
+60
+start here
+1 7805
+2 2586
+3 1418
+6 777
+7 584
+27 42
+35 32
+90 28
+262 8
+1491 4
+2379 1
+del phat = 0.0326835 and iterations = 22576
+end here
+61
+start here
+1 1008
+3 853
+6 756
+39 367
+40 89
+50 72
+87 50
+150 39
+181 10
+993 1
+del phat = 0.0298099 and iterations = 20591
+17951 0
+end here
+62
+start here
+1 310
+4 219
+88 17
+584 8
+1475 6
+2407 4
+3955 3
+5409 1
+8687 0
+del phat = 0.0307678 and iterations = 21253
+end here
+63
+start here
+1 2037
+3 1971
+13 736
+15 86
+76 55
+100 31
+121 29
+206 13
+361 11
+949 0
+del phat = 0.0313572 and iterations = 21660
+end here
+64
+start here
+1 4228
+2 619
+7 209
+38 180
+46 23
+338 10
+662 4
+4583 0
+del phat = 0.0321677 and iterations = 22220
+end here
+65
+start here
+1 7174
+2 1363
+9 599
+18 438
+23 275
+42 149
+51 70
+75 55
+123 4
+490 3
+2300 1
+7148 0
+del phat = 0.0323887 and iterations = 22373
+end here
+66
+start here
+1 2989
+4 1381
+10 254
+11 133
+69 29
+258 6
+680 5
+1489 0
+del phat = 0.0320203 and iterations = 22118
+end here
+67
+start here
+1 4613
+2 1013
+3 795
+5 75
+10 19
+215 17
+222 13
+317 12
+672 11
+853 8
+1858 2
+6338 1
+8198 0
+del phat = 0.0332729 and iterations = 22984
+end here
+68
+start here
+1 5352
+2 2683
+3 1073
+4 759
+13 265
+24 31
+241 0
+del phat = 0.0338624 and iterations = 23391
+end here
+69
+start here
+1 1091
+5 214
+39 158
+64 6
+302 0
+del phat = 0.033936 and iterations = 23442
+end here
+70
+start here
+1 266
+11 24
+128 15
+133 7
+190 5
+273 1
+3454 0
+del phat = 0.0322414 and iterations = 22271
+end here
+71
+start here
+1 2995
+2 2579
+3 920
+5 567
+17 8
+1695 0
+del phat = 0.0298099 and iterations = 20591
+end here
+72
+start here
+1 1260
+3 994
+17 588
+22 149
+53 17
+451 9
+887 2
+4769 1
+7793 0
+del phat = 0.031873 and iterations = 22017
+end here
+73
+start here
+1 941
+3 625
+8 229
+27 148
+59 99
+105 45
+169 40
+292 22
+368 15
+1154 11
+1185 8
+3747 7
+4204 4
+8089 1
+del phat = 0.0323887 and iterations = 22373
+13759 0
+end here
+74
+start here
+1 1313
+8 698
+10 636
+18 228
+79 171
+88 70
+149 40
+268 21
+481 18
+1385 6
+1832 5
+2826 4
+3777 2
+5806 1
+5864 0
+del phat = 0.0315046 and iterations = 21762
+end here
+75
+start here
+1 1426
+2 795
+6 552
+43 294
+45 64
+49 25
+236 1
+del phat = 0.0340097 and iterations = 23493
+19306 0
+end here
+76
+start here
+1 1556
+6 1266
+9 532
+16 286
+20 266
+36 4
+1214 2
+4019 0
+del phat = 0.0345992 and iterations = 23900
+end here
+77
+start here
+1 22122
+2 1158
+5 603
+7 397
+14 171
+20 59
+33 56
+53 9
+93 0
+del phat = 0.0322414 and iterations = 22271
+end here
+78
+start here
+1 6521
+2 295
+9 11
+697 5
+5585 0
+del phat = 0.0308414 and iterations = 21304
+end here
+79
+start here
+1 2814
+2 1918
+5 618
+12 555
+20 286
+46 47
+54 18
+181 4
+1482 1
+del phat = 0.0312835 and iterations = 21609
+end here
+80
+start here
+1 2979
+2 1409
+5 202
+13 42
+17 39
+112 4
+1723 0
+del phat = 0.0311362 and iterations = 21508
+end here
+81
+start here
+1 8936
+2 1480
+6 1387
+7 703
+11 231
+24 209
+46 201
+47 40
+70 2
+1360 0
+del phat = 0.0316519 and iterations = 21864
+end here
+82
+start here
+1 3913
+2 1673
+9 1342
+11 205
+52 82
+83 56
+228 23
+741 17
+1507 15
+1838 9
+4179 5
+4764 2
+del phat = 0.0324624 and iterations = 22424
+end here
+83
+start here
+1 984
+5 235
+18 22
+91 21
+565 17
+722 11
+983 5
+1053 4
+3138 2
+5531 0
+del phat = 0.0315046 and iterations = 21762
+end here
+84
+start here
+1 6836
+2 1121
+4 986
+7 345
+14 108
+51 80
+80 30
+110 4
+1002 0
+del phat = 0.0333466 and iterations = 23035
+end here
+85
+start here
+1 2801
+14 1392
+16 638
+18 615
+42 350
+76 221
+100 48
+224 14
+359 0
+del phat = 0.0330519 and iterations = 22831
+end here
+86
+start here
+1 471
+15 302
+44 195
+71 104
+186 9
+239 3
+2789 1
+del phat = 0.030252 and iterations = 20897
+end here
+87
+start here
+1 2559
+2 168
+71 14
+574 11
+1295 9
+1936 5
+3206 2
+4566 0
+del phat = 0.0317993 and iterations = 21966
+end here
+88
+start here
+1 1763
+2 66
+51 43
+69 21
+74 12
+526 1
+10608 0
+del phat = 0.0324624 and iterations = 22424
+end here
+89
+start here
+1 5789
+2 3448
+3 712
+43 700
+51 39
+235 17
+419 1
+11591 0
+del phat = 0.033715 and iterations = 23289
+end here
+90
+start here
+1 11888
+2 838
+3 90
+15 46
+271 30
+293 18
+419 4
+7519 2
+9083 1
+13063 0
+del phat = 0.0321677 and iterations = 22220
+end here
+91
+start here
+1 8894
+2 73
+23 12
+187 11
+331 10
+1748 8
+2222 4
+3733 2
+del phat = 0.0319467 and iterations = 22067
+18212 0
+end here
+92
+start here
+1 6306
+3 1872
+5 1377
+9 496
+12 79
+37 50
+120 48
+280 11
+287 10
+403 1
+5912 0
+del phat = 0.0309151 and iterations = 21355
+end here
+93
+start here
+1 3476
+2 134
+25 64
+170 15
+230 4
+4741 2
+6296 0
+del phat = 0.0308414 and iterations = 21304
+end here
+94
+start here
+1 7118
+2 4828
+7 781
+12 419
+23 56
+95 37
+122 31
+290 14
+308 5
+432 4
+1233 1
+10002 0
+del phat = 0.0311362 and iterations = 21508
+end here
+95
+start here
+1 13387
+2 4575
+3 1890
+12 1819
+13 552
+21 407
+27 229
+50 174
+53 107
+69 12
+1252 8
+1602 4
+4405 0
+del phat = 0.0328308 and iterations = 22678
+end here
+96
+start here
+1 3626
+2 1919
+6 977
+19 897
+40 465
+43 179
+48 126
+134 78
+177 42
+233 1
+8304 0
+del phat = 0.0316519 and iterations = 21864
+end here
+97
+start here
+1 1520
+2 1194
+7 123
+86 82
+89 13
+143 5
+1127 3
+1253 1
+10321 0
+del phat = 0.031873 and iterations = 22017
+end here
+98
+start here
+1 10495
+2 4695
+3 2442
+5 1867
+7 381
+39 23
+166 18
+701 1
+11080 0
+del phat = 0.0329782 and iterations = 22780
+end here
+99
+start here
+1 6947
+2 581
+3 40
+193 9
+543 8
+1544 4
+4869 0
+del phat = 0.0308414 and iterations = 21304
+end here
+size of the set = 20
+0
+start here
+1 18591
+4 1327
+7 1180
+19 660
+43 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+1
+start here
+1 1180
+6 685
+16 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+2
+start here
+1 15217
+2 660
+6 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+3
+start here
+1 33703
+2 685
+9 660
+46 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+4
+start here
+1 35693
+2 1180
+6 660
+25 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+5
+start here
+1 33703
+2 27574
+3 685
+13 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+6
+start here
+1 14187
+2 2204
+4 1180
+11 660
+21 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+7
+start here
+1 685
+7 660
+30 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+8
+start here
+1 36020
+2 1327
+3 660
+4 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+9
+start here
+1 2007
+2 1327
+7 660
+46 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+10
+start here
+1 4722
+2 1180
+13 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+11
+start here
+1 35693
+2 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+12
+start here
+1 33703
+2 1180
+16 685
+31 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+13
+start here
+1 1327
+2 1180
+5 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+14
+start here
+1 1365
+4 1180
+8 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+15
+start here
+1 1365
+2 660
+29 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+16
+start here
+1 14187
+5 1365
+7 1180
+17 685
+33 660
+65 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+17
+start here
+1 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+18
+start here
+1 33703
+2 1180
+5 660
+64 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+19
+start here
+1 1365
+10 660
+24 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+20
+start here
+1 33703
+2 18496
+3 1180
+15 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+21
+start here
+1 1180
+12 660
+38 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+22
+start here
+1 14187
+4 660
+7 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+23
+start here
+1 14187
+4 660
+5 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+24
+start here
+1 1180
+10 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+25
+start here
+1 685
+3 660
+40 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+26
+start here
+1 27574
+2 15217
+4 14187
+5 2007
+8 685
+23 660
+67 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+27
+start here
+1 1180
+4 660
+64 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+28
+start here
+1 685
+17 660
+52 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+29
+start here
+1 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+30
+start here
+1 2204
+4 1180
+15 685
+29 660
+133 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+31
+start here
+1 35693
+2 660
+8 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+32
+start here
+1 2204
+4 685
+8 660
+97 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+33
+start here
+1 660
+11 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+34
+start here
+1 15217
+2 1180
+10 660
+54 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+35
+start here
+1 27574
+3 1365
+4 1327
+9 685
+14 660
+20 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+36
+start here
+1 14187
+2 2204
+3 1365
+4 1180
+18 660
+92 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+37
+start here
+1 14187
+11 1327
+12 1180
+31 660
+94 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+38
+start here
+1 1180
+11 685
+37 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+39
+start here
+1 3319
+5 1180
+7 685
+32 660
+130 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+40
+start here
+1 1327
+2 1180
+13 685
+14 660
+23 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+41
+start here
+1 18496
+4 2204
+13 1180
+34 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+42
+start here
+1 33703
+2 15217
+3 660
+29 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+43
+start here
+1 15217
+4 1365
+15 1180
+17 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+44
+start here
+1 685
+5 660
+36 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+45
+start here
+1 14187
+5 1365
+6 1180
+7 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+46
+start here
+1 2204
+2 1180
+41 660
+51 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+47
+start here
+1 35693
+2 27574
+4 18591
+6 1180
+19 685
+20 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+48
+start here
+1 18496
+2 15217
+7 1180
+20 685
+21 660
+79 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+49
+start here
+1 33703
+4 18591
+5 15217
+6 1365
+7 1327
+8 1180
+20 685
+32 660
+42 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+50
+start here
+1 18591
+2 1180
+18 18
+del error estimation of p hat, np < 10 or n(1 − p) < 10
+del phat = 0.0157368 and iterations = 10870
+end here
+51

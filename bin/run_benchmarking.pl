@@ -375,7 +375,7 @@ my $MAX_ELEM_VALUE = 100000;   # Maximum value of an element of S.
 
 if ($instance_mode == 0)
 {
-  foreach my $i (1..$maximum_instance_size)    
+  foreach my $i (18..$maximum_instance_size)    
   {
     # Create files (either .dat or .xml) containing random instances.
     #
@@ -465,7 +465,7 @@ my $MAX_TIME_VALUE = 0;
 print "\nRunning benchmarking experiments with $number_of_algorithms " .
       "algorithms and instances of size up to $maximum_instance_size.\n\n";
 
-foreach my $i (1..$maximum_instance_size)    
+foreach my $i (18..$maximum_instance_size)    
 {
   print "Starting iteration $i... ";
 
@@ -686,7 +686,7 @@ sub print_time_graphs
   {
     open (DATA, ">$GNUPLOT_DATA_FILE");
 
-    for (my $i = 1; $i <= $maximum_instance_size; $i++)
+    for (my $i = 18; $i <= $maximum_instance_size; $i++)
     {
       printf DATA "$i %.4f %.4f\n", $cost_function_calls{$algo}->[$i],
                                     $total_time{$algo}->[$i];
