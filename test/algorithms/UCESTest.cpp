@@ -287,31 +287,11 @@ namespace UCESTest
 
     bool check_results3() { //works faster than check_results2, epsilon[0] and delta[0] minimum values!!
 
-        int n = 60;
+        int n = 10;
 
         string arr[] = {
-        "input/tmp/Test_020_0001.xml",
-        "input/tmp/Test_020_0002.xml",
-        "input/tmp/Test_020_0003.xml",
-        "input/tmp/Test_020_0004.xml",
-        "input/tmp/Test_020_0005.xml",
-        "input/tmp/Test_020_0006.xml",
-        "input/tmp/Test_020_0007.xml",
-        "input/tmp/Test_020_0008.xml",
-        "input/tmp/Test_020_0009.xml",
-        "input/tmp/Test_020_0010.xml"
-        "input/tmp/Test_021_0001.xml",
-        "input/tmp/Test_021_0002.xml",
-        "input/tmp/Test_021_0003.xml",
-        "input/tmp/Test_021_0004.xml",
-        "input/tmp/Test_021_0005.xml",
-        "input/tmp/Test_021_0006.xml",
-        "input/tmp/Test_021_0007.xml",
-        "input/tmp/Test_021_0008.xml",
-        "input/tmp/Test_021_0009.xml",
-        "input/tmp/Test_021_0010.xml"
         "input/tmp/Test_022_0001.xml",
-        "input/tmp/Test_022_0002.xml",
+        "input/tmp/Test_022_0002.xml"
         "input/tmp/Test_022_0003.xml",
         "input/tmp/Test_022_0004.xml",
         "input/tmp/Test_022_0005.xml",
@@ -320,36 +300,6 @@ namespace UCESTest
         "input/tmp/Test_022_0008.xml",
         "input/tmp/Test_022_0009.xml",
         "input/tmp/Test_022_0010.xml"
-        "input/tmp/Test_023_0001.xml",
-        "input/tmp/Test_023_0002.xml",
-        "input/tmp/Test_023_0003.xml",
-        "input/tmp/Test_023_0004.xml",
-        "input/tmp/Test_023_0005.xml",
-        "input/tmp/Test_023_0006.xml",
-        "input/tmp/Test_023_0007.xml",
-        "input/tmp/Test_023_0008.xml",
-        "input/tmp/Test_023_0009.xml",
-        "input/tmp/Test_023_0010.xml"
-        "input/tmp/Test_024_0001.xml",
-        "input/tmp/Test_024_0002.xml",
-        "input/tmp/Test_024_0003.xml",
-        "input/tmp/Test_024_0004.xml",
-        "input/tmp/Test_024_0005.xml",
-        "input/tmp/Test_024_0006.xml",
-        "input/tmp/Test_024_0007.xml",
-        "input/tmp/Test_024_0008.xml",
-        "input/tmp/Test_024_0009.xml",
-        "input/tmp/Test_024_0010.xml"
-        "input/tmp/Test_025_0001.xml",
-        "input/tmp/Test_025_0002.xml",
-        "input/tmp/Test_025_0003.xml",
-        "input/tmp/Test_025_0004.xml",
-        "input/tmp/Test_025_0005.xml",
-        "input/tmp/Test_025_0006.xml",
-        "input/tmp/Test_025_0007.xml",
-        "input/tmp/Test_025_0008.xml",
-        "input/tmp/Test_025_0009.xml",
-        "input/tmp/Test_025_0010.xml"
         };
         vector <string> S(arr, arr+n);
 
@@ -365,23 +315,26 @@ namespace UCESTest
         delta[3] = 0.05;
         delta[4] = 0.1;
 
-        int nepsilon = epsilon.size(), ndelta = delta.size();
+//        int nepsilon = epsilon.size(), ndelta = delta.size();
 
+        cout << "Start" << endl;
 
         UCES uces;
         for (int i = 0; i < n; i++) {
-//            cout << S[i] << endl;
+            cout << S[i] << endl;
             ElementSet pset("set", S[i]);
             SubsetSum pc (&pset);
             uces.set_parameters (&pc, &pset, false);
-            int nset = pset.get_set_cardinality ();
-            cout << "size of the set = " << nset << endl;
-            vector <int> Costs;
+//            int nset = pset.get_set_cardinality ();
+//            cout << "size of the set = " << nset << endl;
+//            vector <int> Costs;
 //            int nMinima = uces.nLocalMinima(Costs); //returns number of Minima
 //            cout << "number of Local Minima = " << nMinima << " p real " << nMinima*1.0/pow(2.0, nset) << endl;
 //            uces.nCosts(Costs); //returns only costs
 //            cout << "\n";
-//            for (int j = 0; j < 1100; j++) {
+//            int CP[6] = {1100, 2100, 4200, 8400, 16800, 33600};
+//            cout << CP[i/10] << endl;
+//            for (int j = 0; j < CP[i/10]; j++) {
 //                cout << " costs " << j << " = " << Costs[j] << endl;
 //                cout << Costs[j] << endl;
 //            }
@@ -420,14 +373,14 @@ namespace UCESTest
 //                    }
 //                }
 //                //end evaluate values
-//            }
+            }
 //
 //            for (int e = 0; e < nepsilon; e++) {
 //                for (int d = 0; d < ndelta; d++) {
 //                    cout << Results[e][d] << " ";
 //                }
 //                cout << endl;
-            }
+//            }
         }
 
 
@@ -440,16 +393,16 @@ namespace UCESTest
         int n = 10;
 
         string arr[] = {
-        "input/tmp/Test_020_0001.xml",
-        "input/tmp/Test_020_0002.xml",
-        "input/tmp/Test_020_0003.xml",
-        "input/tmp/Test_020_0004.xml",
-        "input/tmp/Test_020_0005.xml",
-        "input/tmp/Test_020_0006.xml",
-        "input/tmp/Test_020_0007.xml",
-        "input/tmp/Test_020_0008.xml",
-        "input/tmp/Test_020_0009.xml",
-        "input/tmp/Test_020_0010.xml"
+        "input/tmp/Test_022_0001.xml",
+        "input/tmp/Test_022_0002.xml"
+        "input/tmp/Test_022_0003.xml",
+        "input/tmp/Test_022_0004.xml",
+        "input/tmp/Test_022_0005.xml",
+        "input/tmp/Test_022_0006.xml",
+        "input/tmp/Test_022_0007.xml",
+        "input/tmp/Test_022_0008.xml",
+        "input/tmp/Test_022_0009.xml",
+        "input/tmp/Test_022_0010.xml"
         };
         vector <string> S(arr, arr+n);
 
@@ -498,6 +451,120 @@ namespace UCESTest
 //            vector < vector <int> > Results( nepsilon, vector <int>(ndelta, 0));
 //
         }
+
+        
+        return true;
+    }
+
+    bool check_results5() { //this is the first to get all the results for milima list eps delta, need to run first 5 and then 6 to get all the costs
+
+        int n = 10;
+
+        string arr[] = {
+        "input/tmp/Test_023_0001.xml",
+        "input/tmp/Test_023_0002.xml",
+        "input/tmp/Test_023_0003.xml",
+        "input/tmp/Test_023_0004.xml",
+        "input/tmp/Test_023_0005.xml",
+        "input/tmp/Test_023_0006.xml",
+        "input/tmp/Test_023_0007.xml",
+        "input/tmp/Test_023_0008.xml",
+        "input/tmp/Test_023_0009.xml",
+        "input/tmp/Test_023_0010.xml"
+        };
+        vector <string> S(arr, arr+n);
+
+        vector <double> epsilon(5), delta(5); // epsilon[0] and delta[0] minimum values!!
+        epsilon[0] = 0.00001;
+        epsilon[1] = 0.00002;
+        epsilon[2] = 0.00005;
+        epsilon[3] = 0.0001;
+        epsilon[4] = 0.001;
+        delta[0] = 0.001;
+        delta[1] = 0.005;
+        delta[2] = 0.01;
+        delta[3] = 0.05;
+        delta[4] = 0.1;
+
+//        int nepsilon = epsilon.size(), ndelta = delta.size();
+
+//        cout << "Start" << endl;
+
+        UCES uces;
+        for (int i = 0; i < n; i++) {
+            cout << S[i] << endl;
+            ElementSet pset("set", S[i]);
+            SubsetSum pc (&pset);
+            uces.set_parameters (&pc, &pset, false);
+//            int nset = pset.get_set_cardinality ();
+            int TotalIterations = 100;
+            for (int j = 0; j < TotalIterations; j++) {
+                cout << j << endl;
+                vector <double> values;
+                double pHat;
+                values = uces.get_minima_list_eps_delta(1, epsilon[0], delta[0], pHat);
+            }
+                
+        }
+        return true;
+    }
+
+    bool check_results6() { //need to run first 5 and then 6 to get all the costs
+
+        int n = 10;
+
+        string arr[] = {
+        "input/tmp/Test_023_0001.xml",
+        "input/tmp/Test_023_0002.xml",
+        "input/tmp/Test_023_0003.xml",
+        "input/tmp/Test_023_0004.xml",
+        "input/tmp/Test_023_0005.xml",
+        "input/tmp/Test_023_0006.xml",
+        "input/tmp/Test_023_0007.xml",
+        "input/tmp/Test_023_0008.xml",
+        "input/tmp/Test_023_0009.xml",
+        "input/tmp/Test_023_0010.xml"
+        };
+        vector <string> S(arr, arr+n);
+
+        vector <double> epsilon(5), delta(5); // epsilon[0] and delta[0] minimum values!!
+        epsilon[0] = 0.00001;
+        epsilon[1] = 0.00002;
+        epsilon[2] = 0.00005;
+        epsilon[3] = 0.0001;
+        epsilon[4] = 0.001;
+        delta[0] = 0.001;
+        delta[1] = 0.005;
+        delta[2] = 0.01;
+        delta[3] = 0.05;
+        delta[4] = 0.1;
+
+//        int nepsilon = epsilon.size(), ndelta = delta.size();
+
+        cout << "Start" << endl;
+
+        UCES uces;
+        for (int i = 0; i < n; i++) {
+//            cout << S[i] << endl;
+            ElementSet pset("set", S[i]);
+            SubsetSum pc (&pset);
+            uces.set_parameters (&pc, &pset, false);
+            int nset = pset.get_set_cardinality ();
+//            cout << "size of the set = " << nset << endl;
+            vector <int> Costs;
+//            int nMinima = uces.nLocalMinima(Costs); //returns number of Minima
+//            cout << "number of Local Minima = " << nMinima << " p real " << nMinima*1.0/pow(2.0, nset) << endl;
+            uces.nCosts(Costs); //returns only costs
+            cout << "\n";
+            int CP[6] = {1100, 2100, 4200, 8400, 16800, 33600};
+            cout << CP[nset-20] << endl;
+            for (int j = 0; j < CP[nset-20]; j++) {
+//                cout << " costs " << j << " = " << Costs[j] << endl;
+                cout << Costs[j] << endl;
+            }
+            cout << "\n";
+        }
+
 
         
         return true;

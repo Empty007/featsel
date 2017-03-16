@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementSet>
+  <SetName> Test_024_0008 </SetName>
+  <SetValue> 331588 </SetValue>
+  <MaxNumberOfElementValues> 1 </MaxNumberOfElementValues>
+  <NumberOfElements> 24 </NumberOfElements>
+  <Element>
+    <name>e1</name>
+    <value> 84764  </value>
+  </Element>  <Element>
+    <name>e2</name>
+    <value> 64243  </value>
+  </Element>  <Element>
+    <name>e3</name>
+    <value> 57489  </value>
+  </Element>  <Element>
+    <name>e4</name>
+    <value> 37768  </value>
+  </Element>  <Element>
+    <name>e5</name>
+    <value> 26730  </value>
+  </Element>  <Element>
+    <name>e6</name>
+    <value> 86378  </value>
+  </Element>  <Element>
+    <name>e7</name>
+    <value> 77341  </value>
+  </Element>  <Element>
+    <name>e8</name>
+    <value> 71745  </value>
+  </Element>  <Element>
+    <name>e9</name>
+    <value> 8248  </value>
+  </Element>  <Element>
+    <name>e10</name>
+    <value> 45143  </value>
+  </Element>  <Element>
+    <name>e11</name>
+    <value> 12662  </value>
+  </Element>  <Element>
+    <name>e12</name>
+    <value> 91545  </value>
+  </Element>  <Element>
+    <name>e13</name>
+    <value> 99702  </value>
+  </Element>  <Element>
+    <name>e14</name>
+    <value> 23332  </value>
+  </Element>  <Element>
+    <name>e15</name>
+    <value> 79988  </value>
+  </Element>  <Element>
+    <name>e16</name>
+    <value> 90158  </value>
+  </Element>  <Element>
+    <name>e17</name>
+    <value> 55289  </value>
+  </Element>  <Element>
+    <name>e18</name>
+    <value> 35996  </value>
+  </Element>  <Element>
+    <name>e19</name>
+    <value> 10868  </value>
+  </Element>  <Element>
+    <name>e20</name>
+    <value> 8953  </value>
+  </Element>  <Element>
+    <name>e21</name>
+    <value> 68223  </value>
+  </Element>  <Element>
+    <name>e22</name>
+    <value> 83197  </value>
+  </Element>  <Element>
+    <name>e23</name>
+    <value> 55780  </value>
+  </Element>  <Element>
+    <name>e24</name>
+    <value> 31113  </value>
+  </Element>
+</ElementSet>

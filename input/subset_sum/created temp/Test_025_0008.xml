@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementSet>
+  <SetName> Test_025_0008 </SetName>
+  <SetValue> 350111 </SetValue>
+  <MaxNumberOfElementValues> 1 </MaxNumberOfElementValues>
+  <NumberOfElements> 25 </NumberOfElements>
+  <Element>
+    <name>e1</name>
+    <value> 23766  </value>
+  </Element>  <Element>
+    <name>e2</name>
+    <value> 42006  </value>
+  </Element>  <Element>
+    <name>e3</name>
+    <value> 14613  </value>
+  </Element>  <Element>
+    <name>e4</name>
+    <value> 69652  </value>
+  </Element>  <Element>
+    <name>e5</name>
+    <value> 55628  </value>
+  </Element>  <Element>
+    <name>e6</name>
+    <value> 63310  </value>
+  </Element>  <Element>
+    <name>e7</name>
+    <value> 75328  </value>
+  </Element>  <Element>
+    <name>e8</name>
+    <value> 57962  </value>
+  </Element>  <Element>
+    <name>e9</name>
+    <value> 71142  </value>
+  </Element>  <Element>
+    <name>e10</name>
+    <value> 75430  </value>
+  </Element>  <Element>
+    <name>e11</name>
+    <value> 57204  </value>
+  </Element>  <Element>
+    <name>e12</name>
+    <value> 49485  </value>
+  </Element>  <Element>
+    <name>e13</name>
+    <value> 31017  </value>
+  </Element>  <Element>
+    <name>e14</name>
+    <value> 46533  </value>
+  </Element>  <Element>
+    <name>e15</name>
+    <value> 68789  </value>
+  </Element>  <Element>
+    <name>e16</name>
+    <value> 78821  </value>
+  </Element>  <Element>
+    <name>e17</name>
+    <value> 1949  </value>
+  </Element>  <Element>
+    <name>e18</name>
+    <value> 11636  </value>
+  </Element>  <Element>
+    <name>e19</name>
+    <value> 55434  </value>
+  </Element>  <Element>
+    <name>e20</name>
+    <value> 8718  </value>
+  </Element>  <Element>
+    <name>e21</name>
+    <value> 84287  </value>
+  </Element>  <Element>
+    <name>e22</name>
+    <value> 3997  </value>
+  </Element>  <Element>
+    <name>e23</name>
+    <value> 4688  </value>
+  </Element>  <Element>
+    <name>e24</name>
+    <value> 1716  </value>
+  </Element>  <Element>
+    <name>e25</name>
+    <value> 58776  </value>
+  </Element>
+</ElementSet>

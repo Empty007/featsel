@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementSet>
+  <SetName> Test_019_0007 </SetName>
+  <SetValue> 643079 </SetValue>
+  <MaxNumberOfElementValues> 1 </MaxNumberOfElementValues>
+  <NumberOfElements> 19 </NumberOfElements>
+  <Element>
+    <name>e1</name>
+    <value> 20229  </value>
+  </Element>  <Element>
+    <name>e2</name>
+    <value> 91448  </value>
+  </Element>  <Element>
+    <name>e3</name>
+    <value> 49336  </value>
+  </Element>  <Element>
+    <name>e4</name>
+    <value> 84481  </value>
+  </Element>  <Element>
+    <name>e5</name>
+    <value> 86579  </value>
+  </Element>  <Element>
+    <name>e6</name>
+    <value> 4795  </value>
+  </Element>  <Element>
+    <name>e7</name>
+    <value> 99669  </value>
+  </Element>  <Element>
+    <name>e8</name>
+    <value> 55080  </value>
+  </Element>  <Element>
+    <name>e9</name>
+    <value> 72472  </value>
+  </Element>  <Element>
+    <name>e10</name>
+    <value> 5438  </value>
+  </Element>  <Element>
+    <name>e11</name>
+    <value> 51841  </value>
+  </Element>  <Element>
+    <name>e12</name>
+    <value> 40772  </value>
+  </Element>  <Element>
+    <name>e13</name>
+    <value> 40601  </value>
+  </Element>  <Element>
+    <name>e14</name>
+    <value> 84526  </value>
+  </Element>  <Element>
+    <name>e15</name>
+    <value> 56099  </value>
+  </Element>  <Element>
+    <name>e16</name>
+    <value> 27264  </value>
+  </Element>  <Element>
+    <name>e17</name>
+    <value> 82614  </value>
+  </Element>  <Element>
+    <name>e18</name>
+    <value> 15953  </value>
+  </Element>  <Element>
+    <name>e19</name>
+    <value> 20782  </value>
+  </Element>
+</ElementSet>

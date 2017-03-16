@@ -38,6 +38,11 @@ namespace UCESTest
     bool check_results3();
 
     bool check_results4();
+
+    bool check_results5();
+
+    bool check_results6();
+
 }
 
 #endif /* UCESTEST_H_ */
